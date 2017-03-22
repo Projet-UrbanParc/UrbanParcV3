@@ -1,0 +1,261 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*FONTS*/
+@font-face {
+    font-family: "UrbanJungle";
+    src: url("../fonts/UrbanJungleDEMO.otf");
+}
+
+@font-face {
+    font-family: "Futura";
+    src: url("../fonts/FuturaHand.ttf");
+}
+
+@font-face {
+    font-family: "ToxTypewriter";
+    src: url("../fonts/ToxTypewriter.ttf");
+}
+
+/*GENERAL*/
+.collapse {
+  margin-top: 1.5em;
+}
+/*Hover nav*/
+.accueil:hover {
+    background-color: rgba(253, 160, 41, 0.8);
+}
+
+.dropdown-menu li .accrobranche:hover {
+    background-color: rgba(75, 163, 60, 0.8);
+}
+
+.dropdown-menu li .skatepark:hover {
+    background-color: rgba(13, 176, 195, 0.8);
+}
+
+.dropdown-menu li .trampo:hover {
+    background-color: rgba(103, 53, 0, 0.8);
+}
+
+.tarif:hover {
+    background-color: rgba(209, 172, 53, 0.8);
+}
+
+.evenement:hover {
+    background-color: rgba(252, 42, 33, 0.8);
+}
+
+.anniversaire:hover {
+    background-color: rgba(220, 63, 209, 0.8);
+}
+
+.media:hover {
+    background-color: rgba(118, 108, 255, 0.8);
+}
+
+.groupes:hover {
+    background-color: rgba(12, 36, 72, 0.8);
+}
+
+/*Bouton Bistrot*/
+.bistrot {
+  background-image: url("../images/blackboard.jpg");
+  font-family: "ToxTypewriter";
+  font-size: 1.750em;
+  font-weight: bold;
+  color: #fff !important; /*Ne s'affiche pas en blanc*/
+}
+
+i {
+  color: #FB7826;
+}
+
+hr {
+  border: 3px solid #FB7826;
+}
+
+main {
+  margin-top: 1.5em;
+}
+
+main h2, main h3 {
+  font-family: "UrbanJungle";
+}
+
+article {
+  margin: 1em;
+  font-family: "Futura";
+}
+
+footer {
+  margin-top: 1em;
+  font-family: "Futura";
+  background-color: #222;
+  color: #fff;
+}
+
+footer .title {
+  color: #FB7826;
+}
+
+footer a {
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/*/!\Padding au niveau du footer non gérable mais pas dérangeant*/
+/*VERSION MOBILE*/
+@media screen and (max-width: 700px) {
+  .navbar {
+    height: 5em;
+    background-color: rgba(0, 0, 0, 0.8);
+	  border-bottom: 3px solid #FB7826;
+    font-family: "UrbanJungle";
+  }
+
+  nav li {
+    width: 100%;
+    height: auto;
+  }
+
+  .collapse {
+    background-color: rgba(225, 207, 187, 0.8);
+  }
+
+  header {
+    display: none;
+  }
+
+  video {
+    width: 100%;
+  }
+
+  footer {
+    padding: inherit; /*Padding toujours présent*/
+  }
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 1280px) {
+  .navbar {
+    height: 5em;
+    background-color: rgba(0, 0, 0, 0.8);
+	  border-bottom: 3px solid #FB7826;
+    font-family: "UrbanJungle";
+  }
+
+  .collapse {
+    background-color: rgba(225, 207, 187, 0.8);
+  }
+
+  header {
+    display: none;
+  }
+
+  video {
+    width: 100%;
+  }
+  .div_partenaires img{
+    width: 70%;
+  }
+/*Footer*/
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+}
+
+@media screen and (min-width: 1281px) {
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    height: 5em;
+    background-color: rgba(225, 207, 187, 0.8);
+    font-size: 1.6em;
+    border-bottom: 3px solid #FB7826;
+    font-family: "UrbanJungle";
+    color: #000; /*couleurs texte nav inchangeable*/
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .nav li {
+    border-right: 2px solid #FB7826;
+    margin: 0.1em;
+  }
+
+  .dropdown-menu {
+    background-color:  rgba(225, 207, 187, 0.8);
+  }
+
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 30em;
+    background-image: url("../images/headers/header_accueil.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid #FB7826;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+article {
+  margin: 1em;
+}
+
+  video {
+    width: 100%;
+    height: 30em;
+  }
+
+  hr {
+    margin: auto;
+    width: 80%;
+  }
+}
