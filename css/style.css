@@ -219,6 +219,7 @@ footer a {
   }
 
   video {
+    z-index: -999;
     width: 100%;
   }
 
@@ -269,6 +270,7 @@ footer a {
   }
 
   video {
+    z-index: -999;
     width: 90%;
     margin-left: 2.5em;
   }
@@ -463,6 +465,7 @@ footer a {
   }
 
   video {
+    z-index: -999;
     width: 100%;
   }
 
