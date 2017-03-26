@@ -116,6 +116,14 @@ article {
   font-family: "Futura";
 }
 
+.art-tarifs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
 main img {
   box-shadow: 10px 10px 5px #888888;
 }
