@@ -90,6 +90,10 @@ article {
   font-family: "Futura";
 }
 
+main img {
+  box-shadow: 10px 10px 5px #888888;
+}
+
 footer {
   margin-top: 1em;
   font-family: "Futura";
@@ -136,6 +140,10 @@ footer a {
     width: 100%;
   }
 
+  main img {
+    width: 90%;
+  }
+
   footer {
     padding: inherit; /*Padding toujours présent*/
   }
@@ -161,6 +169,14 @@ footer a {
   video {
     width: 100%;
   }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .div_partenaires img{
     width: 70%;
   }
@@ -184,15 +200,20 @@ footer a {
 }
 
 @media screen and (min-width: 1281px) {
+  .navbar-collapse{
+    margin-top: 1px;
+  }
+
   .navbar {
     display: flex;
     justify-content: space-around;
     position: fixed;
+    padding: 1.1%;
     width: 100%;
-    height: 5em;
+    height: 4em;
     background-color: rgba(225, 207, 187, 0.8);
+    border: none;
     font-size: 1.6em;
-    border-bottom: 3px solid #FB7826;
     font-family: "UrbanJungle";
     color: #000; /*couleurs texte nav inchangeable*/
   }
@@ -245,9 +266,16 @@ footer a {
             align-items: center;
   }
 
-article {
-  margin: 1em;
-}
+  article {
+    width: 25%;
+    margin: 1.5em;
+    font-size: 1.30em;
+    font-family: Arial;
+  }
+
+  article p{
+    margin: 5%;
+  }
 
   video {
     width: 100%;
@@ -255,7 +283,7 @@ article {
   }
 
   hr {
-    margin: auto;
+    margin: 1em;
     width: 80%;
   }
 }
