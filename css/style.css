@@ -24,6 +24,14 @@
   margin-top: 1.5em;
 }
 /*Hover nav*/
+.nav li a{
+  color: #000 !important;
+}
+
+.nav li a:hover{
+  color: #fff !important;
+}
+
 .accueil:hover {
     background-color: rgba(253, 160, 41, 0.8);
 }
@@ -61,12 +69,12 @@
 }
 
 /*Bouton Bistrot*/
-.bistrot {
+.nav li .bistrot {
   background-image: url("../images/blackboard.jpg");
   font-family: "ToxTypewriter";
   font-size: 1.750em;
   font-weight: bold;
-  color: #fff !important; /*Ne s'affiche pas en blanc*/
+  color: #fff !important;
 }
 
 i {
