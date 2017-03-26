@@ -46,30 +46,60 @@
         <!-- Nav max device -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="accueil"><a href="#">Accueil <span class="sr-only">(current)</span></a></li>
+            <li class="accueil" id='link1' rel="son1"><a href="#">Accueil <span class="sr-only">(current)</span></a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Activites <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li id='link2' rel="son2"><a href="#" class="accrobranche">Accrobranche</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="#" class="skatepark">Skatepark</a></li>
+                <li id='link3' rel="son3"><a href="#" class="skatepark">Skatepark</a></li>
                 <li role="separator" class="divider"></li>
-                <li><a href="#" class="trampo">Trampoline</a></li>
+                <li id='link7' rel="son7"><a href="#" class="trampo">Trampoline</a></li>
                 <li role="separator" class="divider"></li>
               </ul>
             </li>
             <li class="tarif" id='link0' rel="son0"><a href="#">Tarifs</a></li>
-            <li class="anniversaire"><a href="#">Anniversaire</a></li>
-            <li class="evenement"><a href="#">Evenement</a></li>
-            <li class="groupes"><a href="#">Groupes</a></li>
+            <li class="anniversaire" id='link6' rel="son6"><a href="#">Anniversaire</a></li>
+            <li class="evenement" id='link5' rel="son5"><a href="#">Evenement</a></li>
+            <li class="groupes" id='link8' rel="son8"><a href="#">Groupes</a></li>
             <li class="media"><a href="media.html">Photos/Videos</a></li>
-            <li><a href="#" class="bistrot">Bistrot</a></li>
+            <li id='link4' rel="son4" data-toggle="modal" data-target="#myModal"><a href="#" class="bistrot">Bistrot</a></li>
           </ul>
       	</div>
         <h3 class="audio-out">Couper le son <i class="fa fa-arrow-right" aria-hidden="true"></i> <i class="fa fa-bell-slash" id="mute" aria-hidden="true"></i></h3>
       </nav>
         <!-- Header -->
         <header>
+          <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h4 class="modal-title" id="myModalLabel">BISTROT</h4>
+    </div>
+    <div class="modal-body">
+      <!-- SECTION I -->
+              <section>
+                  <!-- ARTICLE IMAGE -->
+                  <article>
+                      <img src="images/bgbistro.jpg" alt="Image Test">
+                  </article>
+                  <!-- ARTICLE TEXTE -->
+                  <article>
+                      <h2>BISTROT</h2>
+                      <p>- Sur place ou à emporter<br/> - Espace de restauration chauffé<br/> - Terrasse / Parking privé / Wifi gratuit<br/> - Possibilité réservation groupe<br/> - Tickets restaurant acceptés<br/> Ouvert tous les midis sauf le dimanche.
+                      </p>
+                  </article>
+              </section>
+              <!-- FIN SECTION I -->
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+</div>
           <article class="header_bouton">
   				      <div class="bouton_facebook">
   					           <a href="https://www.facebook.com/urbanparc/" target="_blank" class="fc"><i class="fa fa-facebook-official"></i>Urban Parc</a>

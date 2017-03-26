@@ -176,6 +176,7 @@ footer a {
     margin-top: -1em;
     font-size: 1em;
     color: #fff;
+    font-family: "Futura";
   }
 
   header {
@@ -221,6 +222,7 @@ footer a {
     margin-top: -1.25em;
     font-size: 1em;
     color: #fff;
+    font-family: "Futura";
   }
 
   header {
@@ -315,8 +317,9 @@ footer a {
 
   .audio-out{
     position: fixed;
-    top: 10%;
+    top: 7%;
     font-size: 1em;
+    font-family: "Futura";
   }
 
   header {
@@ -395,9 +398,9 @@ footer a {
     -ms-flex-direction: row;
     -webkit-flex-direction: row;
             flex-direction: row;
-    -ms-flex-pack: center;
-        -webkit-justify-content: center;
-            justify-content: center;
+    -ms-flex-pack: space-around;
+        -webkit-justify-content: space-around;
+            justify-content: space-around;
     -ms-flex-align: center;
         -webkit-align-items: center;
             align-items: center;

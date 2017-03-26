@@ -1,4 +1,45 @@
 $(document).ready(function(){
+  //Effet Audio Accueil
+$('#link1').click(function() {
+    $('#' + $(this).attr('rel'))[0].play();
+    //requête Ajax
+    $('#section1').load("LinksAccueil/Section1.html #section1");
+    $('#section2').load("LinksAccueil/Section2.html #section2");
+    $('#section3').load("LinksAccueil/Section3.html #section3");
+    $('#section4').load("LinksAccueil/Section4.html #section4");
+    // Animation CSS
+    $('header').css({
+        'background-image': 'url(images/headers/header_accueil.png)',
+        'background-size': 'cover',
+        'background-repeat': 'no-repeat',
+        'border-bottom': '4px solid #FB7826',
+        'transition': '3s'
+    });
+    // $('h1').css({
+    //     'color': '#FB7826',
+    //     'transition': '3s'
+    // });
+    $('h2').css({
+        'color': '#FB7826',
+        'transition': '3s'
+    });
+    $('.fa').css({
+        'color': '#FB7826',
+        'transition': '3s'
+    });
+    $('h3').css({
+        'color': '#FB7826',
+        'transition': '3s'
+    });
+    $('hr').css({
+        'border': '4px solid #FB7826',
+        'transition': '3s'
+    });
+    // $('iframe').css({
+    //     'border-top': '3px solid #FB7826',
+    //     'transition': '3s'
+    // });
+  });
   //Effet Audio Accrobranche
   $('#link2').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
@@ -38,6 +79,92 @@ $(document).ready(function(){
     });
     // $('iframe').css({
     //     'border-top': '3px solid #4BA33C',
+    //     'transition': '3s'
+    // });
+  });
+
+  //Effet Audio Skatepark
+$('#link3').click(function() {
+    $('#' + $(this).attr('rel'))[0].play();
+    //requête Ajax
+    $('#section1').load("LinksSkatepark/Section1.html #sectionskate1");
+    $('#section2').load("LinksSkatepark/Section2.html #sectionskate2");
+    $('#section3').load("LinksSkatepark/Section3.html #sectionskate3");
+    $('#section4').load("LinksSkatepark/Section4.html #sectionskate4");
+
+    // Animation CSS
+    $('header').css({
+        'background-image': 'url("images/headers/header_skatepark.png")',
+        'background-size': 'cover',
+        'background-repeat': 'no-repeat',
+        'border-bottom': '4px solid #0DB0C3',
+        'transition': '3s'
+    });
+    // $('h1').css({
+    //     'color': '#0DB0C3',
+    //     'transition': '3s'
+    // });
+    $('h2').css({
+        'color': '#0DB0C3',
+        'transition': '3s'
+    });
+    $('.fa').css({
+        'color': '#0DB0C3',
+        'transition': '3s'
+    });
+    $('h3').css({
+        'color': '#0DB0C3',
+        'transition': '3s'
+    });
+    $('hr').css({
+        'border': '4px solid #0DB0C3',
+        'transition': '3s'
+    });
+    // $('iframe').css({
+    //     'border-top': '3px solid #0DB0C3',
+    //     'transition': '3s'
+    // });
+  });
+
+  //Effet Audio Trampo
+$('#link7').click(function() {
+    $('#' + $(this).attr('rel'))[0].play();
+    //requête Ajax
+    $('#section1').load("LinksTrampo/Section1.html #sectiontramp1");
+    $('#section2').load("LinksTrampo/Section2.html #sectiontramp2");
+    $('#section3').load("LinksTrampo/Section3.html #sectiontramp3");
+    $('#section4').load("LinksTrampo/Section4.html #sectiontramp4");
+
+    // Animation CSS
+    $('header').css({
+        'background-image': 'url("images/headers/header_trampo.png")',
+        'background-size': 'cover',
+        'background-repeat': 'no-repeat',
+        'border-bottom': '4px solid #673500',
+        'transition': '3s'
+    });
+    // $('h1').css({
+    //     'color': '#673500',
+    //     'transition': '3s'
+    // });
+    $('h2').css({
+        'color': '#673500',
+        'transition': '3s'
+    });
+    $('.fa').css({
+        'color': '#673500',
+        'transition': '3s'
+    });
+    $('h3').css({
+        'color': '#673500',
+        'transition': '3s'
+    });
+    $('hr').css({
+        'border': '4px solid #673500',
+        'transition': '3s'
+    });
+    // $('iframe').css({
+    //     'border-top': '3px solid #673500',
     //     'transition': '3s'
     // });
   });
@@ -84,9 +211,144 @@ $(document).ready(function(){
     //     'border-top': '3px solid #D1AC35',
     //     'transition': '3s'
     // });
-});
+  });
+
+  //Effet Audio Anniversaire
+$('#link6').click(function() {
+    $('#' + $(this).attr('rel'))[0].play();
+    //requête Ajax
+    $('#section1').load("LinksAnniversaire/Section1.html #sectionann1");
+    $('#section2').load("LinksAnniversaire/Section2.html #sectionann2");
+    $('#section3').load("LinksAnniversaire/Section3.html #sectionann3");
+    $('#section4').load("LinksAnniversaire/Section4.html #sectionann4");
+
+    // Animation CSS
+    $('header').css({
+        'background-image': 'url("images/headers/header_anniversaire.png")',
+        'background-size': 'cover',
+        'background-repeat': 'no-repeat',
+        'border-bottom': '4px solid #DC3FD1',
+        'transition': '3s'
+    });
+    // $('h1').css({
+    //     'color': '#DC3FD1',
+    //     'transition': '3s'
+    // });
+    $('h2').css({
+        'color': '#DC3FD1',
+        'transition': '3s'
+    });
+    $('.fa').css({
+        'color': '#DC3FD1',
+        'transition': '3s'
+    });
+    $('h3').css({
+        'color': '#DC3FD1',
+        'transition': '3s'
+    });
+    $('hr').css({
+        'border': '4px solid #DC3FD1',
+        'transition': '3s'
+    });
+    // $('iframe').css({
+    //     'border-top': '3px solid #DC3FD1',
+    //     'transition': '3s'
+    // });
+  });
+
+  //Effet Audio Event
+$('#link5').click(function() {
+    $('#' + $(this).attr('rel'))[0].play();
+    //requête Ajax
+    $('#section1').load("LinksEvenement/Section1.html #sectionevent1");
+    $('#section2').load("LinksEvenement/Section2.html #sectionevent2");
+    $('#section3').load("LinksEvenement/Section3.html #sectionevent3");
+    $('#section4').load("LinksEvenement/Section4.html #sectionevent4");
+
+    // Animation CSS
+    $('header').css({
+        'background-image': 'url("images/headers/header_event.png")',
+        'background-size': 'cover',
+        'background-repeat': 'no-repeat',
+        'border-bottom': '4px solid #FC2A21',
+        'transition': '3s'
+    });
+    // $('h1').css({
+    //     'color': '#FC2A21',
+    //     'transition': '3s'
+    // });
+    $('h2').css({
+        'color': '#FC2A21',
+        'transition': '3s'
+    });
+    $('.fa').css({
+        'color': '#FC2A21',
+        'transition': '3s'
+    });
+    $('h3').css({
+        'color': '#FC2A21',
+        'transition': '3s'
+    });
+    $('hr').css({
+        'border': '4px solid #FC2A21',
+        'transition': '3s'
+    });
+    // $('iframe').css({
+    //     'border-top': '3px solid #FC2A21',
+    //     'transition': '3s'
+    // });
+  });
+
+  //Effet audio Groupes
+$('#link8').click(function() {
+    $('#' + $(this).attr('rel'))[0].play();
+    //requête Ajax
+    $('#section1').load("LinksGroupes/Section1.html #sectiongrp1");
+    $('#section2').load("LinksGroupes/Section2.html #sectiongrp2");
+    $('#section3').load("LinksGroupes/Section3.html #sectiongrp3");
+    $('#section4').load("LinksGroupes/Section4.html #sectiongrp4");
+
+    // Animation CSS
+    $('header').css({
+        'background-image': 'url("images/headers/header_groupes.png")',
+        'background-size': 'cover',
+        'background-repeat': 'no-repeat',
+        'border-bottom': '4px solid #0C2448',
+        'transition': '3s'
+    });
+    // $('h1').css({
+    //     'color': '#0C2448',
+    //     'transition': '3s'
+    // });
+    $('h2').css({
+        'color': '#0C2448',
+        'transition': '3s'
+    });
+    $('.fa').css({
+        'color': '#0C2448',
+        'transition': '3s'
+    });
+    $('h3').css({
+        'color': '#0C2448',
+        'transition': '3s'
+    });
+    $('hr').css({
+        'border': '4px solid #0C2448',
+        'transition': '3s'
+    });
+    // $('iframe').css({
+    //     'border-top': '3px solid #0C2448',
+    //     'transition': '3s'
+    // });
+  });
+
+  //Effet Audio Bistrot
+  $('#link4').click(function() {
+    $('#' + $(this).attr('rel'))[0].play();
+  });
 
   //Mute Audio
+  var son0 = document.getElementById('son0');
   var son1 = document.getElementById('son1');
   var son2 = document.getElementById('son2');
   var son3 = document.getElementById('son3');
@@ -100,6 +362,7 @@ $(document).ready(function(){
 
     e = e || window.event;
 
+    son0.muted = !son0.muted;
     son1.muted = !son1.muted;
     son2.muted = !son2.muted;
     son3.muted = !son3.muted;
