@@ -20,6 +20,37 @@
 }
 
 /*GENERAL*/
+.modal-content{
+  background-image: url("../images/blackboard.jpg");
+  color: #fff;
+}
+
+.modal-title{
+  font-family: "ToxTypewriter";
+  font-weight: bold;
+}
+
+.modal-body{
+  /*padding: inherit;*/
+  width: 100%;
+}
+
+.hr{
+  margin: auto;
+  border: 3px solid #fff;
+}
+
+.modal-body section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-body section article{
+  text-align: left;
+  font-family: "ToxTypewriter";
+}
+
 audio {
   display: none;
 }
@@ -152,6 +183,10 @@ footer a {
 /*/!\Padding au niveau du footer non gérable mais pas dérangeant*/
 /*VERSION MOBILE*/
 @media screen and (max-width: 700px) {
+  .modal-body img {
+    width: 100%;
+  }
+
   .navbar {
     height: 5em;
     background-color: rgba(0, 0, 0, 0.8);
@@ -203,6 +238,10 @@ footer a {
 }
 
 @media screen and (min-width: 701px) and (max-width: 1280px) {
+  .modal-body img {
+    width: 100%;
+  }
+
   .navbar {
     height: 5em;
     background-color: rgba(0, 0, 0, 0.8);
@@ -318,6 +357,7 @@ footer a {
   .audio-out{
     position: fixed;
     top: 7%;
+    left: 5.5%;
     font-size: 1em;
     font-family: "Futura";
   }
