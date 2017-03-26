@@ -36,10 +36,10 @@ $(document).ready(function(){
         'border': '4px solid #4BA33C',
         'transition': '3s'
     });
-    $('iframe').css({
-        'border-top': '3px solid #4BA33C',
-        'transition': '3s'
-    });
+    // $('iframe').css({
+    //     'border-top': '3px solid #4BA33C',
+    //     'transition': '3s'
+    // });
   });
 
   //Mute Audio
