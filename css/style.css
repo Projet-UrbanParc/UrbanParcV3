@@ -161,6 +161,10 @@ main img {
   box-shadow: 10px 10px 5px #888888;
 }
 
+.item {
+  z-index: -1000000;
+}
+
 footer {
   margin-top: 1em;
   font-family: "Futura";
