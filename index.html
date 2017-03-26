@@ -14,6 +14,17 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
   <body>
+    <!--Effets Audio Nav-->
+        <audio id="son0" src="audio/sontarifs.ogg"></audio>
+        <audio id="son1" src="audio/sonacceuil.ogg"></audio>
+        <audio id="son2" src="audio/branchage.ogg"></audio>
+        <audio id="son3" src="audio/sonskate.ogg"></audio>
+        <audio id="son4" src="audio/ambiancecafe.ogg"></audio>
+        <audio id="son5" src="audio/ambevent.ogg"></audio>
+        <audio id="son6" src="audio/sonannif.ogg"></audio>
+        <audio id="son7" src="audio/sontrampo.ogg"></audio>
+        <audio id="son8" src="audio/songroupe.ogg"></audio>
+
     <!-- Nav bootstrap 3 component -->
     <nav class="navbar navbar-default">
       <div class="container-fluid">
@@ -39,7 +50,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Activites <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#" class="accrobranche">Accrobranche</a></li>
+                <li id='link2' rel="son2"><a href="#" class="accrobranche">Accrobranche</a></li>
                 <li role="separator" class="divider"></li>
                 <li><a href="#" class="skatepark">Skatepark</a></li>
                 <li role="separator" class="divider"></li>
@@ -56,6 +67,7 @@
           </ul>
       	</div>
       </nav>
+      <h3 class="audio-out">Couper le son <i class="fa fa-arrow-right" aria-hidden="true"></i> <i class="fa fa-bell-slash" id="mute" aria-hidden="true"></i></h3>
         <!-- Header -->
         <header>
           <article class="header_bouton">
@@ -244,5 +256,7 @@
             </div>
         </footer>
     <!-- END FOOTER -->
+    <!-- SCRIPT JS -->
+    <script type="text/javascript" src="js/custom.js"></script>
   </body>
 </html>

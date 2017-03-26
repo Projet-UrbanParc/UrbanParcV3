@@ -20,6 +20,10 @@
 }
 
 /*GENERAL*/
+audio {
+  display: none;
+}
+
 .collapse {
   margin-top: 1.5em;
 }
@@ -79,6 +83,16 @@
   font-size: 1.750em;
   font-weight: bold;
   color: #fff !important;
+}
+
+.audio-out{
+  position: fixed;
+  top: 6%;
+  font-size: 1em;
+}
+
+.fa-bell-slash{
+  cursor: pointer;
 }
 
 i {
