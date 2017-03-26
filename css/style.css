@@ -167,7 +167,8 @@ footer a {
   }
 
   video {
-    width: 100%;
+    width: 90%;
+    margin-left: 2.5em;
   }
 
   main {
@@ -218,6 +219,10 @@ footer a {
     color: #000; /*couleurs texte nav inchangeable*/
   }
 
+  .navbar-header{
+    display: none;
+  }
+
   .navbar-brand {
     display: none;
   }
@@ -242,6 +247,48 @@ footer a {
     background-size: cover;
     border-bottom: 3px solid #FB7826;
   }
+
+  .header_bouton {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+        width: 100%;
+        height: 24em;
+        padding: 0;
+        margin: 0;
+        font-family: "Futura";
+    }
+
+    .bouton_facebook {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        align-items: flex-start;
+        border-top: 2px solid #FB7826;
+        border-left: 2px solid #FB7826;
+        border-bottom: 2px solid #FB7826;
+        border-radius: 20px 0px 0px 0px;
+        padding: 0.5em;
+        background-color: #000;
+    }
+
+    .bouton_facebook a i{
+      margin: 0.5em;
+    }
 
   main {
     display: flex;
