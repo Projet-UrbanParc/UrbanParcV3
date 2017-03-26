@@ -36,6 +36,10 @@
     background-color: rgba(253, 160, 41, 0.8);
 }
 
+.dropdown-menu li {
+  font-size: 1.6em;
+}
+
 .dropdown-menu li .accrobranche:hover {
     background-color: rgba(75, 163, 60, 0.8);
 }
@@ -140,6 +144,10 @@ footer a {
     background-color: rgba(225, 207, 187, 0.8);
   }
 
+  .dropdown-menu li {
+    font-size: 1em;
+  }
+
   header {
     display: none;
   }
@@ -168,6 +176,10 @@ footer a {
 
   .collapse {
     background-color: rgba(225, 207, 187, 0.8);
+  }
+
+  .dropdown-menu li {
+    font-size: 1em;
   }
 
   header {
@@ -342,7 +354,7 @@ footer a {
   }
 
   hr {
-    margin: 1em;
+    margin: 2em;
     width: 80%;
   }
 }
