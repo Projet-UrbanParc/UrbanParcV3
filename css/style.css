@@ -87,7 +87,7 @@ audio {
 
 .audio-out{
   position: fixed;
-  top: 6%;
+  top: 10%;
   font-size: 1em;
 }
 
@@ -162,6 +162,13 @@ footer a {
     font-size: 1em;
   }
 
+  .audio-out{
+    position: fixed;
+    top: 7%;
+    font-size: 1em;
+    color: #fff;
+  }
+
   header {
     display: none;
   }
@@ -194,6 +201,13 @@ footer a {
 
   .dropdown-menu li {
     font-size: 1em;
+  }
+
+  .audio-out{
+    position: fixed;
+    top: 7%;
+    font-size: 1em;
+    color: #fff;
   }
 
   header {

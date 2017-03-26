@@ -9,24 +9,24 @@
     <!-- LINK ICON FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- LINK SCRIPT -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </head>
   <body>
-    <!--Effets Audio Nav-->
-        <audio id="son0" src="audio/sontarifs.ogg"></audio>
-        <audio id="son1" src="audio/sonacceuil.ogg"></audio>
-        <audio id="son2" src="audio/branchage.ogg"></audio>
-        <audio id="son3" src="audio/sonskate.ogg"></audio>
-        <audio id="son4" src="audio/ambiancecafe.ogg"></audio>
-        <audio id="son5" src="audio/ambevent.ogg"></audio>
-        <audio id="son6" src="audio/sonannif.ogg"></audio>
-        <audio id="son7" src="audio/sontrampo.ogg"></audio>
-        <audio id="son8" src="audio/songroupe.ogg"></audio>
-
     <!-- Nav bootstrap 3 component -->
     <nav class="navbar navbar-default">
+      <!--Effets Audio Nav-->
+          <audio id="son0" src="audio/sontarifs.ogg"></audio>
+          <audio id="son1" src="audio/sonacceuil.ogg"></audio>
+          <audio id="son2" src="audio/branchage.ogg"></audio>
+          <audio id="son3" src="audio/sonskate.ogg"></audio>
+          <audio id="son4" src="audio/ambiancecafe.ogg"></audio>
+          <audio id="son5" src="audio/ambevent.ogg"></audio>
+          <audio id="son6" src="audio/sonannif.ogg"></audio>
+          <audio id="son7" src="audio/sontrampo.ogg"></audio>
+          <audio id="son8" src="audio/songroupe.ogg"></audio>
       <div class="container-fluid">
         <!-- Menu Mobile -->
         <div class="navbar-header">
@@ -58,7 +58,7 @@
                 <li role="separator" class="divider"></li>
               </ul>
             </li>
-            <li class="tarif"><a href="#">Tarifs</a></li>
+            <li class="tarif" id='link0' rel="son0"><a href="#">Tarifs</a></li>
             <li class="anniversaire"><a href="#">Anniversaire</a></li>
             <li class="evenement"><a href="#">Evenement</a></li>
             <li class="groupes"><a href="#">Groupes</a></li>
@@ -203,7 +203,7 @@
                         <div>
                             <h2 class="title">Urban Parc</h2>
                             <ul class="list-unstyled">
-                                <li><a href="#" id="qsn">Informations contacts</a></li>
+                                <li><a href="#">Nous Contacter!</a></li>
                             </ul>
                         </div>
                     </div>

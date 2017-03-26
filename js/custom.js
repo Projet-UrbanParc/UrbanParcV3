@@ -42,6 +42,50 @@ $(document).ready(function(){
     // });
   });
 
+  /// LIEN TARIFS
+  $('#link0').click(function() {
+    //Effet Audio
+    $('#' + $(this).attr('rel'))[0].play();
+    //requête Ajax
+    $('#section1').load("LinksTarifs/Section1.html #sectiontarifs1");
+    $('#section2').load("LinksTarifs/Section2.html #sectiontarifs2");
+    $('#section3').load("LinksTarifs/Section3.html #sectiontarifs3");
+    $('#section4').load("LinksTarifs/Section4.html #sectiontarifs4");
+
+    // Animation CSS
+    $('header').css({
+        'background-image': 'url("images/headers/header_tarif.png")',
+        'background-size': 'cover',
+        'background-repeat': 'no-repeat',
+        'border-bottom': '4px solid #D1AC35',
+        'transition': '3s'
+    });
+    // $('h1').css({
+    //     'color': '#D1AC35',
+    //     'transition': '3s'
+    // });
+    $('h2').css({
+        'color': '#D1AC35',
+        'transition': '3s'
+    });
+    $('.fa').css({
+        'color': '#D1AC35',
+        'transition': '3s'
+    });
+    $('h3').css({
+        'color': '#D1AC35',
+        'transition': '3s'
+    });
+    $('hr').css({
+        'border': '4px solid #D1AC35',
+        'transition': '3s'
+    });
+    // $('iframe').css({
+    //     'border-top': '3px solid #D1AC35',
+    //     'transition': '3s'
+    // });
+});
+
   //Mute Audio
   var son1 = document.getElementById('son1');
   var son2 = document.getElementById('son2');
@@ -64,9 +108,9 @@ $(document).ready(function(){
     son6.muted = !son6.muted;
     son7.muted = !son7.muted;
     son8.muted = !son8.muted;
-    e.preventDefault();
+    e.defaultPrevented();
 
 
 
   }, false);
-}
+});
