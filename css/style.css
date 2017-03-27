@@ -42,13 +42,22 @@
 
 .modal-body section{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .modal-body section article{
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   font-family: "ToxTypewriter";
+}
+
+.modal-body section article p{
+  text-align: left;
 }
 
 audio {

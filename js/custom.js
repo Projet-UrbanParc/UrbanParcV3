@@ -3,10 +3,10 @@ $(document).ready(function(){
 $('#link1').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
     //requête Ajax
-    $('#section1').load("LinksAccueil/Section1.html #section1");
-    $('#section2').load("LinksAccueil/Section2.html #section2");
-    $('#section3').load("LinksAccueil/Section3.html #section3");
-    $('#section4').load("LinksAccueil/Section4.html #section4");
+    $('#section1').load("backEnd/LinksAccueil/Section1.html #section1");
+    $('#section2').load("backEnd/LinksAccueil/Section2.html #section2");
+    $('#section3').load("backEnd/LinksAccueil/Section3.html #section3");
+    $('#section4').load("backEnd/LinksAccueil/Section4.html #section4");
     // Animation CSS
     $('header').css({
         'background-image': 'url(images/headers/header_accueil.png)',
@@ -44,10 +44,10 @@ $('#link1').click(function() {
   $('#link2').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
     //requête Ajax
-    $('#section1').load("LinksAccrobranche/Section1.html #sectionaccr1");
-    $('#section2').load("LinksAccrobranche/Section2.html #sectionaccr2");
-    $('#section3').load("LinksAccrobranche/Section3.html #sectionaccr3");
-    $('#section4').load("LinksAccrobranche/Section4.html #sectionaccr4");
+    $('#section1').load("backEnd/LinksAccrobranche/Section1.html #sectionaccr1");
+    $('#section2').load("backEnd/LinksAccrobranche/Section2.html #sectionaccr2");
+    $('#section3').load("backEnd/LinksAccrobranche/Section3.html #sectionaccr3");
+    $('#section4').load("backEnd/LinksAccrobranche/Section4.html #sectionaccr4");
 
     // Animation CSS
     $('header').css({
@@ -87,10 +87,10 @@ $('#link1').click(function() {
 $('#link3').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
     //requête Ajax
-    $('#section1').load("LinksSkatepark/Section1.html #sectionskate1");
-    $('#section2').load("LinksSkatepark/Section2.html #sectionskate2");
-    $('#section3').load("LinksSkatepark/Section3.html #sectionskate3");
-    $('#section4').load("LinksSkatepark/Section4.html #sectionskate4");
+    $('#section1').load("backEnd/LinksSkatepark/Section1.html #sectionskate1");
+    $('#section2').load("backEnd/LinksSkatepark/Section2.html #sectionskate2");
+    $('#section3').load("backEnd/LinksSkatepark/Section3.html #sectionskate3");
+    $('#section4').load("backEnd/LinksSkatepark/Section4.html #sectionskate4");
 
     // Animation CSS
     $('header').css({
@@ -130,10 +130,10 @@ $('#link3').click(function() {
 $('#link7').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
     //requête Ajax
-    $('#section1').load("LinksTrampo/Section1.html #sectiontramp1");
-    $('#section2').load("LinksTrampo/Section2.html #sectiontramp2");
-    $('#section3').load("LinksTrampo/Section3.html #sectiontramp3");
-    $('#section4').load("LinksTrampo/Section4.html #sectiontramp4");
+    $('#section1').load("backEnd/LinksTrampo/Section1.html #sectiontramp1");
+    $('#section2').load("backEnd/LinksTrampo/Section2.html #sectiontramp2");
+    $('#section3').load("backEnd/LinksTrampo/Section3.html #sectiontramp3");
+    $('#section4').load("backEnd/LinksTrampo/Section4.html #sectiontramp4");
 
     // Animation CSS
     $('header').css({
@@ -174,10 +174,10 @@ $('#link7').click(function() {
     //Effet Audio
     $('#' + $(this).attr('rel'))[0].play();
     //requête Ajax
-    $('#section1').load("LinksTarifs/Section1.html #sectiontarifs1");
-    $('#section2').load("LinksTarifs/Section2.html #sectiontarifs2");
-    $('#section3').load("LinksTarifs/Section3.html #sectiontarifs3");
-    $('#section4').load("LinksTarifs/Section4.html #sectiontarifs4");
+    $('#section1').load("backEnd/LinksTarifs/Section1.html #sectiontarifs1");
+    $('#section2').load("backEnd/LinksTarifs/Section2.html #sectiontarifs2");
+    $('#section3').load("backEnd/LinksTarifs/Section3.html #sectiontarifs3");
+    $('#section4').load("backEnd/LinksTarifs/Section4.html #sectiontarifs4");
 
     // Animation CSS
     $('header').css({
@@ -217,10 +217,10 @@ $('#link7').click(function() {
 $('#link6').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
     //requête Ajax
-    $('#section1').load("LinksAnniversaire/Section1.html #sectionann1");
-    $('#section2').load("LinksAnniversaire/Section2.html #sectionann2");
-    $('#section3').load("LinksAnniversaire/Section3.html #sectionann3");
-    $('#section4').load("LinksAnniversaire/Section4.html #sectionann4");
+    $('#section1').load("backEnd/LinksAnniversaire/Section1.html #sectionann1");
+    $('#section2').load("backEnd/LinksAnniversaire/Section2.html #sectionann2");
+    $('#section3').load("backEnd/LinksAnniversaire/Section3.html #sectionann3");
+    $('#section4').load("backEnd/LinksAnniversaire/Section4.html #sectionann4");
 
     // Animation CSS
     $('header').css({
@@ -260,10 +260,10 @@ $('#link6').click(function() {
 $('#link5').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
     //requête Ajax
-    $('#section1').load("LinksEvenement/Section1.html #sectionevent1");
-    $('#section2').load("LinksEvenement/Section2.html #sectionevent2");
-    $('#section3').load("LinksEvenement/Section3.html #sectionevent3");
-    $('#section4').load("LinksEvenement/Section4.html #sectionevent4");
+    $('#section1').load("backEnd/LinksEvenement/Section1.html #sectionevent1");
+    $('#section2').load("backEnd/LinksEvenement/Section2.html #sectionevent2");
+    $('#section3').load("backEnd/LinksEvenement/Section3.html #sectionevent3");
+    $('#section4').load("backEnd/LinksEvenement/Section4.html #sectionevent4");
 
     // Animation CSS
     $('header').css({
@@ -303,10 +303,10 @@ $('#link5').click(function() {
 $('#link8').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
     //requête Ajax
-    $('#section1').load("LinksGroupes/Section1.html #sectiongrp1");
-    $('#section2').load("LinksGroupes/Section2.html #sectiongrp2");
-    $('#section3').load("LinksGroupes/Section3.html #sectiongrp3");
-    $('#section4').load("LinksGroupes/Section4.html #sectiongrp4");
+    $('#section1').load("backEnd/LinksGroupes/Section1.html #sectiongrp1");
+    $('#section2').load("backEnd/LinksGroupes/Section2.html #sectiongrp2");
+    $('#section3').load("backEnd/LinksGroupes/Section3.html #sectiongrp3");
+    $('#section4').load("backEnd/LinksGroupes/Section4.html #sectiongrp4");
 
     // Animation CSS
     $('header').css({
@@ -345,6 +345,11 @@ $('#link8').click(function() {
   //Effet Audio Bistrot
   $('#link4').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
+
+    //requête Ajax
+    $('#section-bist1').load("backEnd/LinksBistrot/Section1.html #sectionbist1");
+    $('#section-bist2').load("backEnd/LinksBistrot/Section2.html #sectionbist2");
+    $('#section-bist3').load("backEnd/LinksBistrot/Section3.html #sectionbist3");
   });
 
   //Mute Audio
