@@ -35,11 +35,53 @@ $('#link1').click(function() {
         'border': '4px solid #FB7826',
         'transition': '3s'
     });
-    // $('iframe').css({
-    //     'border-top': '3px solid #FB7826',
+    $('#btn_map').css({
+        'background-color': '#FB7826',
+        'transition': '3s'
+    });
+  });
+
+  // Accueil Footer
+$('#lien1').click(function() {
+    //requête Ajax
+    $('#section1').load("backEnd/LinksAccueil/Section1.html #section1");
+    $('#section2').load("backEnd/LinksAccueil/Section2.html #section2");
+    $('#section3').load("backEnd/LinksAccueil/Section3.html #section3");
+    $('#section4').load("backEnd/LinksAccueil/Section4.html #section4");
+    // Animation CSS
+    $('header').css({
+        'background-image': 'url(images/headers/header_accueil.png)',
+        'background-size': 'cover',
+        'background-repeat': 'no-repeat',
+        'border-bottom': '4px solid #FB7826',
+        'transition': '3s'
+    });
+    // $('h1').css({
+    //     'color': '#FB7826',
     //     'transition': '3s'
     // });
+    $('h2').css({
+        'color': '#FB7826',
+        'transition': '3s'
+    });
+    $('.fa').css({
+        'color': '#FB7826',
+        'transition': '3s'
+    });
+    $('h3').css({
+        'color': '#FB7826',
+        'transition': '3s'
+    });
+    $('hr').css({
+        'border': '4px solid #FB7826',
+        'transition': '3s'
+    });
+    $('#btn_map').css({
+        'background-color': '#FB7826',
+        'transition': '3s'
+    });
   });
+
   //Effet Audio Accrobranche
   $('#link2').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
@@ -77,10 +119,52 @@ $('#link1').click(function() {
         'border': '4px solid #4BA33C',
         'transition': '3s'
     });
-    // $('iframe').css({
-    //     'border-top': '3px solid #4BA33C',
-    //     'transition': '3s'
+    $('#btn_map').css({
+        'background-color': '#4BA33C',
+        'transition': '3s'
+    });
+  });
+
+  //Accrobranche Footer
+  $('#lien2').click(function() {
+    //requête Ajax
+    $('#section1').load("backEnd/LinksAccrobranche/Section1.html #sectionaccr1");
+    $('#section2').load("backEnd/LinksAccrobranche/Section2.html #sectionaccr2");
+    $('#section3').load("backEnd/LinksAccrobranche/Section3.html #sectionaccr3");
+    $('#section4').load("backEnd/LinksAccrobranche/Section4.html #sectionaccr4");
+
+    // Animation CSS
+    $('header').css({
+        'background-image': 'url("images/headers/header_accro.png")',
+        'background-size': 'cover',
+        'background-repeat': 'no-repeat',
+        'border-bottom': '4px solid #4BA33C',
+        'transition': '3s'
+    });
+    // $('h1').css({
+    //   'color': '#4BA33C',
+    //   'transition': '3s'
     // });
+    $('h2').css({
+        'color': '#4BA33C',
+        'transition': '3s'
+    });
+    $('.fa').css({
+        'color': '#4BA33C',
+        'transition': '3s'
+    });
+    $('h3').css({
+        'color': '#4BA33C',
+        'transition': '3s'
+    });
+    $('hr').css({
+        'border': '4px solid #4BA33C',
+        'transition': '3s'
+    });
+    $('#btn_map').css({
+        'background-color': '#4BA33C',
+        'transition': '3s'
+    });
   });
 
   //Effet Audio Skatepark
@@ -120,10 +204,52 @@ $('#link3').click(function() {
         'border': '4px solid #0DB0C3',
         'transition': '3s'
     });
-    // $('iframe').css({
-    //     'border-top': '3px solid #0DB0C3',
+    $('#btn_map').css({
+        'background-color': '#0DB0C3',
+        'transition': '3s'
+    });
+  });
+
+  //Skatepark Footer
+$('#lien3').click(function() {
+    //requête Ajax
+    $('#section1').load("backEnd/LinksSkatepark/Section1.html #sectionskate1");
+    $('#section2').load("backEnd/LinksSkatepark/Section2.html #sectionskate2");
+    $('#section3').load("backEnd/LinksSkatepark/Section3.html #sectionskate3");
+    $('#section4').load("backEnd/LinksSkatepark/Section4.html #sectionskate4");
+
+    // Animation CSS
+    $('header').css({
+        'background-image': 'url("images/headers/header_skatepark.png")',
+        'background-size': 'cover',
+        'background-repeat': 'no-repeat',
+        'border-bottom': '4px solid #0DB0C3',
+        'transition': '3s'
+    });
+    // $('h1').css({
+    //     'color': '#0DB0C3',
     //     'transition': '3s'
     // });
+    $('h2').css({
+        'color': '#0DB0C3',
+        'transition': '3s'
+    });
+    $('.fa').css({
+        'color': '#0DB0C3',
+        'transition': '3s'
+    });
+    $('h3').css({
+        'color': '#0DB0C3',
+        'transition': '3s'
+    });
+    $('hr').css({
+        'border': '4px solid #0DB0C3',
+        'transition': '3s'
+    });
+    $('#btn_map').css({
+        'background-color': '#0DB0C3',
+        'transition': '3s'
+    });
   });
 
   //Effet Audio Trampo
@@ -163,13 +289,55 @@ $('#link7').click(function() {
         'border': '4px solid #673500',
         'transition': '3s'
     });
-    // $('iframe').css({
-    //     'border-top': '3px solid #673500',
-    //     'transition': '3s'
-    // });
+    $('#btn_map').css({
+        'background-color': '#673500',
+        'transition': '3s'
+    });
   });
 
-  /// LIEN TARIFS
+  //Trampo Footer
+$('#lien7').click(function() {
+    //requête Ajax
+    $('#section1').load("backEnd/LinksTrampo/Section1.html #sectiontramp1");
+    $('#section2').load("backEnd/LinksTrampo/Section2.html #sectiontramp2");
+    $('#section3').load("backEnd/LinksTrampo/Section3.html #sectiontramp3");
+    $('#section4').load("backEnd/LinksTrampo/Section4.html #sectiontramp4");
+
+    // Animation CSS
+    $('header').css({
+        'background-image': 'url("images/headers/header_trampo.png")',
+        'background-size': 'cover',
+        'background-repeat': 'no-repeat',
+        'border-bottom': '4px solid #673500',
+        'transition': '3s'
+    });
+    // $('h1').css({
+    //     'color': '#673500',
+    //     'transition': '3s'
+    // });
+    $('h2').css({
+        'color': '#673500',
+        'transition': '3s'
+    });
+    $('.fa').css({
+        'color': '#673500',
+        'transition': '3s'
+    });
+    $('h3').css({
+        'color': '#673500',
+        'transition': '3s'
+    });
+    $('hr').css({
+        'border': '4px solid #673500',
+        'transition': '3s'
+    });
+    $('#btn_map').css({
+        'background-color': '#673500',
+        'transition': '3s'
+    });
+  });
+
+  ///Effet Audio TARIFS
   $('#link0').click(function() {
     //Effet Audio
     $('#' + $(this).attr('rel'))[0].play();
@@ -207,10 +375,52 @@ $('#link7').click(function() {
         'border': '4px solid #D1AC35',
         'transition': '3s'
     });
-    // $('iframe').css({
-    //     'border-top': '3px solid #D1AC35',
+    $('#btn_map').css({
+        'background-color': '#D1AC35',
+        'transition': '3s'
+    });
+  });
+
+  ///TARIFS Footer
+  $('#lien0').click(function() {
+    //requête Ajax
+    $('#section1').load("backEnd/LinksTarifs/Section1.html #sectiontarifs1");
+    $('#section2').load("backEnd/LinksTarifs/Section2.html #sectiontarifs2");
+    $('#section3').load("backEnd/LinksTarifs/Section3.html #sectiontarifs3");
+    $('#section4').load("backEnd/LinksTarifs/Section4.html #sectiontarifs4");
+
+    // Animation CSS
+    $('header').css({
+        'background-image': 'url("images/headers/header_tarif.png")',
+        'background-size': 'cover',
+        'background-repeat': 'no-repeat',
+        'border-bottom': '4px solid #D1AC35',
+        'transition': '3s'
+    });
+    // $('h1').css({
+    //     'color': '#D1AC35',
     //     'transition': '3s'
     // });
+    $('h2').css({
+        'color': '#D1AC35',
+        'transition': '3s'
+    });
+    $('.fa').css({
+        'color': '#D1AC35',
+        'transition': '3s'
+    });
+    $('h3').css({
+        'color': '#D1AC35',
+        'transition': '3s'
+    });
+    $('hr').css({
+        'border': '4px solid #D1AC35',
+        'transition': '3s'
+    });
+    $('#btn_map').css({
+        'background-color': '#D1AC35',
+        'transition': '3s'
+    });
   });
 
   //Effet Audio Anniversaire
@@ -250,10 +460,52 @@ $('#link6').click(function() {
         'border': '4px solid #DC3FD1',
         'transition': '3s'
     });
-    // $('iframe').css({
-    //     'border-top': '3px solid #DC3FD1',
+    $('#btn_map').css({
+        'background-color': '#DC3FD1',
+        'transition': '3s'
+    });
+  });
+
+  //Anniversaire Footer
+$('#lien6').click(function() {
+    //requête Ajax
+    $('#section1').load("backEnd/LinksAnniversaire/Section1.html #sectionann1");
+    $('#section2').load("backEnd/LinksAnniversaire/Section2.html #sectionann2");
+    $('#section3').load("backEnd/LinksAnniversaire/Section3.html #sectionann3");
+    $('#section4').load("backEnd/LinksAnniversaire/Section4.html #sectionann4");
+
+    // Animation CSS
+    $('header').css({
+        'background-image': 'url("images/headers/header_anniversaire.png")',
+        'background-size': 'cover',
+        'background-repeat': 'no-repeat',
+        'border-bottom': '4px solid #DC3FD1',
+        'transition': '3s'
+    });
+    // $('h1').css({
+    //     'color': '#DC3FD1',
     //     'transition': '3s'
     // });
+    $('h2').css({
+        'color': '#DC3FD1',
+        'transition': '3s'
+    });
+    $('.fa').css({
+        'color': '#DC3FD1',
+        'transition': '3s'
+    });
+    $('h3').css({
+        'color': '#DC3FD1',
+        'transition': '3s'
+    });
+    $('hr').css({
+        'border': '4px solid #DC3FD1',
+        'transition': '3s'
+    });
+    $('#btn_map').css({
+        'background-color': '#DC3FD1',
+        'transition': '3s'
+    });
   });
 
   //Effet Audio Event
@@ -293,10 +545,52 @@ $('#link5').click(function() {
         'border': '4px solid #FC2A21',
         'transition': '3s'
     });
-    // $('iframe').css({
-    //     'border-top': '3px solid #FC2A21',
+    $('#btn_map').css({
+        'background-color': '#FC2A21',
+        'transition': '3s'
+    });
+  });
+
+  //Event Footer
+$('#lien5').click(function() {
+    //requête Ajax
+    $('#section1').load("backEnd/LinksEvenement/Section1.html #sectionevent1");
+    $('#section2').load("backEnd/LinksEvenement/Section2.html #sectionevent2");
+    $('#section3').load("backEnd/LinksEvenement/Section3.html #sectionevent3");
+    $('#section4').load("backEnd/LinksEvenement/Section4.html #sectionevent4");
+
+    // Animation CSS
+    $('header').css({
+        'background-image': 'url("images/headers/header_event.png")',
+        'background-size': 'cover',
+        'background-repeat': 'no-repeat',
+        'border-bottom': '4px solid #FC2A21',
+        'transition': '3s'
+    });
+    // $('h1').css({
+    //     'color': '#FC2A21',
     //     'transition': '3s'
     // });
+    $('h2').css({
+        'color': '#FC2A21',
+        'transition': '3s'
+    });
+    $('.fa').css({
+        'color': '#FC2A21',
+        'transition': '3s'
+    });
+    $('h3').css({
+        'color': '#FC2A21',
+        'transition': '3s'
+    });
+    $('hr').css({
+        'border': '4px solid #FC2A21',
+        'transition': '3s'
+    });
+    $('#btn_map').css({
+        'background-color': '#FC2A21',
+        'transition': '3s'
+    });
   });
 
   //Effet audio Groupes
@@ -336,10 +630,52 @@ $('#link8').click(function() {
         'border': '4px solid #0C2448',
         'transition': '3s'
     });
-    // $('iframe').css({
-    //     'border-top': '3px solid #0C2448',
+    $('#btn_map').css({
+        'background-color': '#0C2448',
+        'transition': '3s'
+    });
+  });
+
+  //Groupes Footer
+$('#lien8').click(function() {
+    //requête Ajax
+    $('#section1').load("backEnd/LinksGroupes/Section1.html #sectiongrp1");
+    $('#section2').load("backEnd/LinksGroupes/Section2.html #sectiongrp2");
+    $('#section3').load("backEnd/LinksGroupes/Section3.html #sectiongrp3");
+    $('#section4').load("backEnd/LinksGroupes/Section4.html #sectiongrp4");
+
+    // Animation CSS
+    $('header').css({
+        'background-image': 'url("images/headers/header_groupes.png")',
+        'background-size': 'cover',
+        'background-repeat': 'no-repeat',
+        'border-bottom': '4px solid #0C2448',
+        'transition': '3s'
+    });
+    // $('h1').css({
+    //     'color': '#0C2448',
     //     'transition': '3s'
     // });
+    $('h2').css({
+        'color': '#0C2448',
+        'transition': '3s'
+    });
+    $('.fa').css({
+        'color': '#0C2448',
+        'transition': '3s'
+    });
+    $('h3').css({
+        'color': '#0C2448',
+        'transition': '3s'
+    });
+    $('hr').css({
+        'border': '4px solid #0C2448',
+        'transition': '3s'
+    });
+    $('#btn_map').css({
+        'background-color': '#0C2448',
+        'transition': '3s'
+    });
   });
 
   //Effet Audio Bistrot
@@ -381,4 +717,12 @@ $('#link8').click(function() {
 
 
   }, false);
+
+  /*BOUTON MAP*/
+  $('iframe').hide();
+
+  $('#btn_map').click(function(){
+    $('iframe').toggle('clip', 'slow');
+    return false;
+  });
 });
