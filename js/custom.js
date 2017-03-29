@@ -39,6 +39,12 @@ $('#link1').click(function() {
         'background-color': '#FB7826',
         'transition': '3s'
     });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #FB7826',
+        'border-left': '2px solid #FB7826',
+        'border-bottom': '2px solid #FB7826',
+        'transition': '3s'
+    });
   });
 
   // Accueil Footer
@@ -78,6 +84,12 @@ $('#lien1').click(function() {
     });
     $('#btn_map').css({
         'background-color': '#FB7826',
+        'transition': '3s'
+    });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #FB7826',
+        'border-left': '2px solid #FB7826',
+        'border-bottom': '2px solid #FB7826',
         'transition': '3s'
     });
   });
@@ -123,6 +135,12 @@ $('#lien1').click(function() {
         'background-color': '#4BA33C',
         'transition': '3s'
     });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #4BA33C',
+        'border-left': '2px solid #4BA33C',
+        'border-bottom': '2px solid #4BA33C',
+        'transition': '3s'
+    });
   });
 
   //Accrobranche Footer
@@ -163,6 +181,12 @@ $('#lien1').click(function() {
     });
     $('#btn_map').css({
         'background-color': '#4BA33C',
+        'transition': '3s'
+    });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #4BA33C',
+        'border-left': '2px solid #4BA33C',
+        'border-bottom': '2px solid #4BA33C',
         'transition': '3s'
     });
   });
@@ -208,6 +232,12 @@ $('#link3').click(function() {
         'background-color': '#0DB0C3',
         'transition': '3s'
     });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #0DB0C3',
+        'border-left': '2px solid #0DB0C3',
+        'border-bottom': '2px solid #0DB0C3',
+        'transition': '3s'
+    });
   });
 
   //Skatepark Footer
@@ -248,6 +278,12 @@ $('#lien3').click(function() {
     });
     $('#btn_map').css({
         'background-color': '#0DB0C3',
+        'transition': '3s'
+    });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #0DB0C3',
+        'border-left': '2px solid #0DB0C3',
+        'border-bottom': '2px solid #0DB0C3',
         'transition': '3s'
     });
   });
@@ -293,6 +329,12 @@ $('#link7').click(function() {
         'background-color': '#673500',
         'transition': '3s'
     });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #673500',
+        'border-left': '2px solid #673500',
+        'border-bottom': '2px solid #673500',
+        'transition': '3s'
+    });
   });
 
   //Trampo Footer
@@ -333,6 +375,12 @@ $('#lien7').click(function() {
     });
     $('#btn_map').css({
         'background-color': '#673500',
+        'transition': '3s'
+    });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #673500',
+        'border-left': '2px solid #673500',
+        'border-bottom': '2px solid #673500',
         'transition': '3s'
     });
   });
@@ -379,6 +427,12 @@ $('#lien7').click(function() {
         'background-color': '#D1AC35',
         'transition': '3s'
     });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #D1AC35',
+        'border-left': '2px solid #D1AC35',
+        'border-bottom': '2px solid #D1AC35',
+        'transition': '3s'
+    });
   });
 
   ///TARIFS Footer
@@ -419,6 +473,12 @@ $('#lien7').click(function() {
     });
     $('#btn_map').css({
         'background-color': '#D1AC35',
+        'transition': '3s'
+    });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #D1AC35',
+        'border-left': '2px solid #D1AC35',
+        'border-bottom': '2px solid #D1AC35',
         'transition': '3s'
     });
   });
@@ -464,6 +524,12 @@ $('#link6').click(function() {
         'background-color': '#DC3FD1',
         'transition': '3s'
     });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #DC3FD1',
+        'border-left': '2px solid #DC3FD1',
+        'border-bottom': '2px solid #DC3FD1',
+        'transition': '3s'
+    });
   });
 
   //Anniversaire Footer
@@ -504,6 +570,12 @@ $('#lien6').click(function() {
     });
     $('#btn_map').css({
         'background-color': '#DC3FD1',
+        'transition': '3s'
+    });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #DC3FD1',
+        'border-left': '2px solid #DC3FD1',
+        'border-bottom': '2px solid #DC3FD1',
         'transition': '3s'
     });
   });
@@ -549,6 +621,12 @@ $('#link5').click(function() {
         'background-color': '#FC2A21',
         'transition': '3s'
     });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #FC2A21',
+        'border-left': '2px solid #FC2A21',
+        'border-bottom': '2px solid #FC2A21',
+        'transition': '3s'
+    });
   });
 
   //Event Footer
@@ -589,6 +667,12 @@ $('#lien5').click(function() {
     });
     $('#btn_map').css({
         'background-color': '#FC2A21',
+        'transition': '3s'
+    });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #FC2A21',
+        'border-left': '2px solid #FC2A21',
+        'border-bottom': '2px solid #FC2A21',
         'transition': '3s'
     });
   });
@@ -634,6 +718,12 @@ $('#link8').click(function() {
         'background-color': '#0C2448',
         'transition': '3s'
     });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #0C2448',
+        'border-left': '2px solid #0C2448',
+        'border-bottom': '2px solid #0C2448',
+        'transition': '3s'
+    });
   });
 
   //Groupes Footer
@@ -674,6 +764,12 @@ $('#lien8').click(function() {
     });
     $('#btn_map').css({
         'background-color': '#0C2448',
+        'transition': '3s'
+    });
+    $('.bouton_facebook').css({
+        'border-top': '2px solid #0C2448',
+        'border-left': '2px solid #0C2448',
+        'border-bottom': '2px solid #0C2448',
         'transition': '3s'
     });
   });
