@@ -1,27 +1,27 @@
 $(document).ready(function(){
   //Animation CSS
   // ==============================LINK 1 =================================/
-// On retire la classe .box-active pour permettre à l'animation de re-trigger
-//return false rajouté par Alex pour ne pas avoir un retour en haut de page à chaque clic dans la nav
+  // On retire la classe .box-active pour permettre à l'animation de re-trigger
+  //return false rajouté par Alex pour ne pas avoir un retour en haut de page à chaque clic dans la nav
 
-document.getElementById('link1').onmousedown = function() {
+  document.getElementById('link1').onmousedown = function() {
     document.getElementById('section1').classList.remove('box-active');
     document.getElementById('section2').classList.remove('box-active2');
     document.getElementById('section3').classList.remove('box-active');
     document.getElementById('section4').classList.remove('box-active2');
     return false;
-};
+  };
 
-// On ajoute la classe .box-active pour trigger l'animation CSS3
-document.getElementById('link1').onclick = function() {
+  // On ajoute la classe .box-active pour trigger l'animation CSS3
+  document.getElementById('link1').onclick = function() {
     document.getElementById('section1').classList.add('box-active');
     document.getElementById('section3').classList.add('box-active');
     document.getElementById('section2').classList.add('box-active2');
     document.getElementById('section4').classList.add('box-active2');
     return false;
-};
+  };
   //Effet Audio Accueil
-$('#link1').click(function() {
+  $('#link1').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
     //requête Ajax
     $('#section1').load("backEnd/LinksAccueil/Section1.html #section1");
@@ -30,46 +30,46 @@ $('#link1').click(function() {
     $('#section4').load("backEnd/LinksAccueil/Section4.html #section4");
     // Animation CSS
     $('header').css({
-        'background-image': 'url(images/headers/header_accueil.png)',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #FB7826',
-        'transition': '3s'
+      'background-image': 'url(images/headers/header_accueil.png)',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #FB7826',
+      'transition': '3s'
     });
     // $('h1').css({
     //     'color': '#FB7826',
     //     'transition': '3s'
     // });
     $('h2').css({
-        'color': '#FB7826',
-        'transition': '3s'
+      'color': '#FB7826',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#FB7826',
-        'transition': '3s'
+      'color': '#FB7826',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#FB7826',
-        'transition': '3s'
+      'color': '#FB7826',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #FB7826',
-        'transition': '3s'
+      'border': '4px solid #FB7826',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#FB7826',
-        'transition': '3s'
+      'background-color': '#FB7826',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #FB7826',
-        'border-left': '2px solid #FB7826',
-        'border-bottom': '2px solid #FB7826',
-        'transition': '3s'
+      'border-top': '2px solid #FB7826',
+      'border-left': '2px solid #FB7826',
+      'border-bottom': '2px solid #FB7826',
+      'transition': '3s'
     });
   });
 
   // Accueil Footer
-$('#lien1').click(function() {
+  $('#lien1').click(function() {
     //requête Ajax
     $('#section1').load("backEnd/LinksAccueil/Section1.html #section1");
     $('#section2').load("backEnd/LinksAccueil/Section2.html #section2");
@@ -77,62 +77,62 @@ $('#lien1').click(function() {
     $('#section4').load("backEnd/LinksAccueil/Section4.html #section4");
     // Animation CSS
     $('header').css({
-        'background-image': 'url(images/headers/header_accueil.png)',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #FB7826',
-        'transition': '3s'
+      'background-image': 'url(images/headers/header_accueil.png)',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #FB7826',
+      'transition': '3s'
     });
     // $('h1').css({
     //     'color': '#FB7826',
     //     'transition': '3s'
     // });
     $('h2').css({
-        'color': '#FB7826',
-        'transition': '3s'
+      'color': '#FB7826',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#FB7826',
-        'transition': '3s'
+      'color': '#FB7826',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#FB7826',
-        'transition': '3s'
+      'color': '#FB7826',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #FB7826',
-        'transition': '3s'
+      'border': '4px solid #FB7826',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#FB7826',
-        'transition': '3s'
+      'background-color': '#FB7826',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #FB7826',
-        'border-left': '2px solid #FB7826',
-        'border-bottom': '2px solid #FB7826',
-        'transition': '3s'
+      'border-top': '2px solid #FB7826',
+      'border-left': '2px solid #FB7826',
+      'border-bottom': '2px solid #FB7826',
+      'transition': '3s'
     });
   });
 
   //Animation CSS
   //================================LINK 2 ================================/
 
-document.getElementById('link2').onmousedown = function() {
+  document.getElementById('link2').onmousedown = function() {
     document.getElementById('section1').classList.remove('box-active');
     document.getElementById('section2').classList.remove('box-active2');
     document.getElementById('section3').classList.remove('box-active');
     document.getElementById('section4').classList.remove('box-active2');
     return false;
-};
+  };
 
-document.getElementById('link2').onclick = function() {
+  document.getElementById('link2').onclick = function() {
     document.getElementById('section1').classList.add('box-active');
     document.getElementById('section3').classList.add('box-active');
     document.getElementById('section2').classList.add('box-active2');
     document.getElementById('section4').classList.add('box-active2');
     return false;
-};
+  };
   //Effet Audio Accrobranche
   $('#link2').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
@@ -144,41 +144,41 @@ document.getElementById('link2').onclick = function() {
 
     // Animation CSS
     $('header').css({
-        'background-image': 'url("images/headers/header_accro.png")',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #4BA33C',
-        'transition': '3s'
+      'background-image': 'url("images/headers/header_accro.png")',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #4BA33C',
+      'transition': '3s'
     });
     // $('h1').css({
     //   'color': '#4BA33C',
     //   'transition': '3s'
     // });
     $('h2').css({
-        'color': '#4BA33C',
-        'transition': '3s'
+      'color': '#4BA33C',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#4BA33C',
-        'transition': '3s'
+      'color': '#4BA33C',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#4BA33C',
-        'transition': '3s'
+      'color': '#4BA33C',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #4BA33C',
-        'transition': '3s'
+      'border': '4px solid #4BA33C',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#4BA33C',
-        'transition': '3s'
+      'background-color': '#4BA33C',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #4BA33C',
-        'border-left': '2px solid #4BA33C',
-        'border-bottom': '2px solid #4BA33C',
-        'transition': '3s'
+      'border-top': '2px solid #4BA33C',
+      'border-left': '2px solid #4BA33C',
+      'border-bottom': '2px solid #4BA33C',
+      'transition': '3s'
     });
   });
 
@@ -192,64 +192,64 @@ document.getElementById('link2').onclick = function() {
 
     // Animation CSS
     $('header').css({
-        'background-image': 'url("images/headers/header_accro.png")',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #4BA33C',
-        'transition': '3s'
+      'background-image': 'url("images/headers/header_accro.png")',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #4BA33C',
+      'transition': '3s'
     });
     // $('h1').css({
     //   'color': '#4BA33C',
     //   'transition': '3s'
     // });
     $('h2').css({
-        'color': '#4BA33C',
-        'transition': '3s'
+      'color': '#4BA33C',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#4BA33C',
-        'transition': '3s'
+      'color': '#4BA33C',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#4BA33C',
-        'transition': '3s'
+      'color': '#4BA33C',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #4BA33C',
-        'transition': '3s'
+      'border': '4px solid #4BA33C',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#4BA33C',
-        'transition': '3s'
+      'background-color': '#4BA33C',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #4BA33C',
-        'border-left': '2px solid #4BA33C',
-        'border-bottom': '2px solid #4BA33C',
-        'transition': '3s'
+      'border-top': '2px solid #4BA33C',
+      'border-left': '2px solid #4BA33C',
+      'border-bottom': '2px solid #4BA33C',
+      'transition': '3s'
     });
   });
 
 
   //Animation CSS
   //================================LINK 3 ==============================/
-document.getElementById('link3').onmousedown = function() {
+  document.getElementById('link3').onmousedown = function() {
     document.getElementById('section1').classList.remove('box-active');
     document.getElementById('section2').classList.remove('box-active2');
     document.getElementById('section3').classList.remove('box-active');
     document.getElementById('section4').classList.remove('box-active2');
     return false;
-};
+  };
 
-document.getElementById('link3').onclick = function() {
+  document.getElementById('link3').onclick = function() {
     document.getElementById('section1').classList.add('box-active');
     document.getElementById('section3').classList.add('box-active');
     document.getElementById('section2').classList.add('box-active2');
     document.getElementById('section4').classList.add('box-active2');
     return false;
-};
+  };
   //Effet Audio Skatepark
-$('#link3').click(function() {
+  $('#link3').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
     //requête Ajax
     $('#section1').load("backEnd/LinksSkatepark/Section1.html #sectionskate1");
@@ -259,46 +259,46 @@ $('#link3').click(function() {
 
     // Animation CSS
     $('header').css({
-        'background-image': 'url("images/headers/header_skatepark.png")',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #0DB0C3',
-        'transition': '3s'
+      'background-image': 'url("images/headers/header_skatepark.png")',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #0DB0C3',
+      'transition': '3s'
     });
     // $('h1').css({
     //     'color': '#0DB0C3',
     //     'transition': '3s'
     // });
     $('h2').css({
-        'color': '#0DB0C3',
-        'transition': '3s'
+      'color': '#0DB0C3',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#0DB0C3',
-        'transition': '3s'
+      'color': '#0DB0C3',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#0DB0C3',
-        'transition': '3s'
+      'color': '#0DB0C3',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #0DB0C3',
-        'transition': '3s'
+      'border': '4px solid #0DB0C3',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#0DB0C3',
-        'transition': '3s'
+      'background-color': '#0DB0C3',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #0DB0C3',
-        'border-left': '2px solid #0DB0C3',
-        'border-bottom': '2px solid #0DB0C3',
-        'transition': '3s'
+      'border-top': '2px solid #0DB0C3',
+      'border-left': '2px solid #0DB0C3',
+      'border-bottom': '2px solid #0DB0C3',
+      'transition': '3s'
     });
   });
 
   //Skatepark Footer
-$('#lien3').click(function() {
+  $('#lien3').click(function() {
     //requête Ajax
     $('#section1').load("backEnd/LinksSkatepark/Section1.html #sectionskate1");
     $('#section2').load("backEnd/LinksSkatepark/Section2.html #sectionskate2");
@@ -307,63 +307,63 @@ $('#lien3').click(function() {
 
     // Animation CSS
     $('header').css({
-        'background-image': 'url("images/headers/header_skatepark.png")',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #0DB0C3',
-        'transition': '3s'
+      'background-image': 'url("images/headers/header_skatepark.png")',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #0DB0C3',
+      'transition': '3s'
     });
     // $('h1').css({
     //     'color': '#0DB0C3',
     //     'transition': '3s'
     // });
     $('h2').css({
-        'color': '#0DB0C3',
-        'transition': '3s'
+      'color': '#0DB0C3',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#0DB0C3',
-        'transition': '3s'
+      'color': '#0DB0C3',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#0DB0C3',
-        'transition': '3s'
+      'color': '#0DB0C3',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #0DB0C3',
-        'transition': '3s'
+      'border': '4px solid #0DB0C3',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#0DB0C3',
-        'transition': '3s'
+      'background-color': '#0DB0C3',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #0DB0C3',
-        'border-left': '2px solid #0DB0C3',
-        'border-bottom': '2px solid #0DB0C3',
-        'transition': '3s'
+      'border-top': '2px solid #0DB0C3',
+      'border-left': '2px solid #0DB0C3',
+      'border-bottom': '2px solid #0DB0C3',
+      'transition': '3s'
     });
   });
 
   //Animation CSS
   //================================LINK 7 ==============================/
-document.getElementById('link7').onmousedown = function() {
+  document.getElementById('link7').onmousedown = function() {
     document.getElementById('section1').classList.remove('box-active');
     document.getElementById('section2').classList.remove('box-active2');
     document.getElementById('section3').classList.remove('box-active');
     document.getElementById('section4').classList.remove('box-active2');
     return false;
-};
+  };
 
-document.getElementById('link7').onclick = function() {
+  document.getElementById('link7').onclick = function() {
     document.getElementById('section1').classList.add('box-active');
     document.getElementById('section3').classList.add('box-active');
     document.getElementById('section2').classList.add('box-active2');
     document.getElementById('section4').classList.add('box-active2');
     return false;
-};
+  };
   //Effet Audio Trampo
-$('#link7').click(function() {
+  $('#link7').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
     //requête Ajax
     $('#section1').load("backEnd/LinksTrampo/Section1.html #sectiontramp1");
@@ -373,46 +373,46 @@ $('#link7').click(function() {
 
     // Animation CSS
     $('header').css({
-        'background-image': 'url("images/headers/header_trampo.png")',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #673500',
-        'transition': '3s'
+      'background-image': 'url("images/headers/header_trampo.png")',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #673500',
+      'transition': '3s'
     });
     // $('h1').css({
     //     'color': '#673500',
     //     'transition': '3s'
     // });
     $('h2').css({
-        'color': '#673500',
-        'transition': '3s'
+      'color': '#673500',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#673500',
-        'transition': '3s'
+      'color': '#673500',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#673500',
-        'transition': '3s'
+      'color': '#673500',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #673500',
-        'transition': '3s'
+      'border': '4px solid #673500',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#673500',
-        'transition': '3s'
+      'background-color': '#673500',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #673500',
-        'border-left': '2px solid #673500',
-        'border-bottom': '2px solid #673500',
-        'transition': '3s'
+      'border-top': '2px solid #673500',
+      'border-left': '2px solid #673500',
+      'border-bottom': '2px solid #673500',
+      'transition': '3s'
     });
   });
 
   //Trampo Footer
-$('#lien7').click(function() {
+  $('#lien7').click(function() {
     //requête Ajax
     $('#section1').load("backEnd/LinksTrampo/Section1.html #sectiontramp1");
     $('#section2').load("backEnd/LinksTrampo/Section2.html #sectiontramp2");
@@ -421,63 +421,63 @@ $('#lien7').click(function() {
 
     // Animation CSS
     $('header').css({
-        'background-image': 'url("images/headers/header_trampo.png")',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #673500',
-        'transition': '3s'
+      'background-image': 'url("images/headers/header_trampo.png")',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #673500',
+      'transition': '3s'
     });
     // $('h1').css({
     //     'color': '#673500',
     //     'transition': '3s'
     // });
     $('h2').css({
-        'color': '#673500',
-        'transition': '3s'
+      'color': '#673500',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#673500',
-        'transition': '3s'
+      'color': '#673500',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#673500',
-        'transition': '3s'
+      'color': '#673500',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #673500',
-        'transition': '3s'
+      'border': '4px solid #673500',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#673500',
-        'transition': '3s'
+      'background-color': '#673500',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #673500',
-        'border-left': '2px solid #673500',
-        'border-bottom': '2px solid #673500',
-        'transition': '3s'
+      'border-top': '2px solid #673500',
+      'border-left': '2px solid #673500',
+      'border-bottom': '2px solid #673500',
+      'transition': '3s'
     });
   });
 
   //Animation CSS
   //================================LINK 0 ==============================/
-document.getElementById('link0').onmousedown = function()
-{
+  document.getElementById('link0').onmousedown = function()
+  {
     document.getElementById('section1').classList.remove('box-active');
     document.getElementById('section2').classList.remove('box-active2');
     document.getElementById('section3').classList.remove('box-active');
     document.getElementById('section4').classList.remove('box-active2');
     return false;
-};
+  };
 
-document.getElementById('link0').onclick = function()
-{
+  document.getElementById('link0').onclick = function()
+  {
     document.getElementById('section1').classList.add('box-active');
     document.getElementById('section3').classList.add('box-active');
     document.getElementById('section2').classList.add('box-active2');
     document.getElementById('section4').classList.add('box-active2');
     return false;
-};
+  };
   ///Effet Audio TARIFS
   $('#link0').click(function() {
     //Effet Audio
@@ -490,41 +490,41 @@ document.getElementById('link0').onclick = function()
 
     // Animation CSS
     $('header').css({
-        'background-image': 'url("images/headers/header_tarif.png")',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #D1AC35',
-        'transition': '3s'
+      'background-image': 'url("images/headers/header_tarif.png")',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #D1AC35',
+      'transition': '3s'
     });
     // $('h1').css({
     //     'color': '#D1AC35',
     //     'transition': '3s'
     // });
     $('h2').css({
-        'color': '#D1AC35',
-        'transition': '3s'
+      'color': '#D1AC35',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#D1AC35',
-        'transition': '3s'
+      'color': '#D1AC35',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#D1AC35',
-        'transition': '3s'
+      'color': '#D1AC35',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #D1AC35',
-        'transition': '3s'
+      'border': '4px solid #D1AC35',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#D1AC35',
-        'transition': '3s'
+      'background-color': '#D1AC35',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #D1AC35',
-        'border-left': '2px solid #D1AC35',
-        'border-bottom': '2px solid #D1AC35',
-        'transition': '3s'
+      'border-top': '2px solid #D1AC35',
+      'border-left': '2px solid #D1AC35',
+      'border-bottom': '2px solid #D1AC35',
+      'transition': '3s'
     });
   });
 
@@ -538,63 +538,63 @@ document.getElementById('link0').onclick = function()
 
     // Animation CSS
     $('header').css({
-        'background-image': 'url("images/headers/header_tarif.png")',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #D1AC35',
-        'transition': '3s'
+      'background-image': 'url("images/headers/header_tarif.png")',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #D1AC35',
+      'transition': '3s'
     });
     // $('h1').css({
     //     'color': '#D1AC35',
     //     'transition': '3s'
     // });
     $('h2').css({
-        'color': '#D1AC35',
-        'transition': '3s'
+      'color': '#D1AC35',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#D1AC35',
-        'transition': '3s'
+      'color': '#D1AC35',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#D1AC35',
-        'transition': '3s'
+      'color': '#D1AC35',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #D1AC35',
-        'transition': '3s'
+      'border': '4px solid #D1AC35',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#D1AC35',
-        'transition': '3s'
+      'background-color': '#D1AC35',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #D1AC35',
-        'border-left': '2px solid #D1AC35',
-        'border-bottom': '2px solid #D1AC35',
-        'transition': '3s'
+      'border-top': '2px solid #D1AC35',
+      'border-left': '2px solid #D1AC35',
+      'border-bottom': '2px solid #D1AC35',
+      'transition': '3s'
     });
   });
 
   //Animation CSS
   //================================LINK 6 ==============================/
-document.getElementById('link6').onmousedown = function() {
+  document.getElementById('link6').onmousedown = function() {
     document.getElementById('section1').classList.remove('box-active');
     document.getElementById('section2').classList.remove('box-active2');
     document.getElementById('section3').classList.remove('box-active');
     document.getElementById('section4').classList.remove('box-active2');
     return false;
-};
+  };
 
-document.getElementById('link6').onclick = function() {
+  document.getElementById('link6').onclick = function() {
     document.getElementById('section1').classList.add('box-active');
     document.getElementById('section3').classList.add('box-active');
     document.getElementById('section2').classList.add('box-active2');
     document.getElementById('section4').classList.add('box-active2');
     return false;
-};
+  };
   //Effet Audio Anniversaire
-$('#link6').click(function() {
+  $('#link6').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
     //requête Ajax
     $('#section1').load("backEnd/LinksAnniversaire/Section1.html #sectionann1");
@@ -604,46 +604,46 @@ $('#link6').click(function() {
 
     // Animation CSS
     $('header').css({
-        'background-image': 'url("images/headers/header_anniversaire.png")',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #DC3FD1',
-        'transition': '3s'
+      'background-image': 'url("images/headers/header_anniversaire.png")',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #DC3FD1',
+      'transition': '3s'
     });
     // $('h1').css({
     //     'color': '#DC3FD1',
     //     'transition': '3s'
     // });
     $('h2').css({
-        'color': '#DC3FD1',
-        'transition': '3s'
+      'color': '#DC3FD1',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#DC3FD1',
-        'transition': '3s'
+      'color': '#DC3FD1',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#DC3FD1',
-        'transition': '3s'
+      'color': '#DC3FD1',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #DC3FD1',
-        'transition': '3s'
+      'border': '4px solid #DC3FD1',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#DC3FD1',
-        'transition': '3s'
+      'background-color': '#DC3FD1',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #DC3FD1',
-        'border-left': '2px solid #DC3FD1',
-        'border-bottom': '2px solid #DC3FD1',
-        'transition': '3s'
+      'border-top': '2px solid #DC3FD1',
+      'border-left': '2px solid #DC3FD1',
+      'border-bottom': '2px solid #DC3FD1',
+      'transition': '3s'
     });
   });
 
   //Anniversaire Footer
-$('#lien6').click(function() {
+  $('#lien6').click(function() {
     //requête Ajax
     $('#section1').load("backEnd/LinksAnniversaire/Section1.html #sectionann1");
     $('#section2').load("backEnd/LinksAnniversaire/Section2.html #sectionann2");
@@ -652,63 +652,63 @@ $('#lien6').click(function() {
 
     // Animation CSS
     $('header').css({
-        'background-image': 'url("images/headers/header_anniversaire.png")',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #DC3FD1',
-        'transition': '3s'
+      'background-image': 'url("images/headers/header_anniversaire.png")',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #DC3FD1',
+      'transition': '3s'
     });
     // $('h1').css({
     //     'color': '#DC3FD1',
     //     'transition': '3s'
     // });
     $('h2').css({
-        'color': '#DC3FD1',
-        'transition': '3s'
+      'color': '#DC3FD1',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#DC3FD1',
-        'transition': '3s'
+      'color': '#DC3FD1',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#DC3FD1',
-        'transition': '3s'
+      'color': '#DC3FD1',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #DC3FD1',
-        'transition': '3s'
+      'border': '4px solid #DC3FD1',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#DC3FD1',
-        'transition': '3s'
+      'background-color': '#DC3FD1',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #DC3FD1',
-        'border-left': '2px solid #DC3FD1',
-        'border-bottom': '2px solid #DC3FD1',
-        'transition': '3s'
+      'border-top': '2px solid #DC3FD1',
+      'border-left': '2px solid #DC3FD1',
+      'border-bottom': '2px solid #DC3FD1',
+      'transition': '3s'
     });
   });
 
   //Animation CSS
   //================================LINK 5 ==============================/
-document.getElementById('link5').onmousedown = function() {
+  document.getElementById('link5').onmousedown = function() {
     document.getElementById('section1').classList.remove('box-active');
     document.getElementById('section2').classList.remove('box-active2');
     document.getElementById('section3').classList.remove('box-active');
     document.getElementById('section4').classList.remove('box-active2');
     return false;
-};
+  };
 
-document.getElementById('link5').onclick = function() {
+  document.getElementById('link5').onclick = function() {
     document.getElementById('section1').classList.add('box-active');
     document.getElementById('section3').classList.add('box-active');
     document.getElementById('section2').classList.add('box-active2');
     document.getElementById('section4').classList.add('box-active2');
     return false;
-};
+  };
   //Effet Audio Event
-$('#link5').click(function() {
+  $('#link5').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
     //requête Ajax
     $('#section1').load("backEnd/LinksEvenement/Section1.html #sectionevent1");
@@ -718,46 +718,46 @@ $('#link5').click(function() {
 
     // Animation CSS
     $('header').css({
-        'background-image': 'url("images/headers/header_event.png")',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #FC2A21',
-        'transition': '3s'
+      'background-image': 'url("images/headers/header_event.png")',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #FC2A21',
+      'transition': '3s'
     });
     // $('h1').css({
     //     'color': '#FC2A21',
     //     'transition': '3s'
     // });
     $('h2').css({
-        'color': '#FC2A21',
-        'transition': '3s'
+      'color': '#FC2A21',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#FC2A21',
-        'transition': '3s'
+      'color': '#FC2A21',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#FC2A21',
-        'transition': '3s'
+      'color': '#FC2A21',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #FC2A21',
-        'transition': '3s'
+      'border': '4px solid #FC2A21',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#FC2A21',
-        'transition': '3s'
+      'background-color': '#FC2A21',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #FC2A21',
-        'border-left': '2px solid #FC2A21',
-        'border-bottom': '2px solid #FC2A21',
-        'transition': '3s'
+      'border-top': '2px solid #FC2A21',
+      'border-left': '2px solid #FC2A21',
+      'border-bottom': '2px solid #FC2A21',
+      'transition': '3s'
     });
   });
 
   //Event Footer
-$('#lien5').click(function() {
+  $('#lien5').click(function() {
     //requête Ajax
     $('#section1').load("backEnd/LinksEvenement/Section1.html #sectionevent1");
     $('#section2').load("backEnd/LinksEvenement/Section2.html #sectionevent2");
@@ -766,63 +766,63 @@ $('#lien5').click(function() {
 
     // Animation CSS
     $('header').css({
-        'background-image': 'url("images/headers/header_event.png")',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #FC2A21',
-        'transition': '3s'
+      'background-image': 'url("images/headers/header_event.png")',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #FC2A21',
+      'transition': '3s'
     });
     // $('h1').css({
     //     'color': '#FC2A21',
     //     'transition': '3s'
     // });
     $('h2').css({
-        'color': '#FC2A21',
-        'transition': '3s'
+      'color': '#FC2A21',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#FC2A21',
-        'transition': '3s'
+      'color': '#FC2A21',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#FC2A21',
-        'transition': '3s'
+      'color': '#FC2A21',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #FC2A21',
-        'transition': '3s'
+      'border': '4px solid #FC2A21',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#FC2A21',
-        'transition': '3s'
+      'background-color': '#FC2A21',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #FC2A21',
-        'border-left': '2px solid #FC2A21',
-        'border-bottom': '2px solid #FC2A21',
-        'transition': '3s'
+      'border-top': '2px solid #FC2A21',
+      'border-left': '2px solid #FC2A21',
+      'border-bottom': '2px solid #FC2A21',
+      'transition': '3s'
     });
   });
 
   //Animation CSS
   //================================LINK 8 ==============================/
-document.getElementById('link8').onmousedown = function() {
+  document.getElementById('link8').onmousedown = function() {
     document.getElementById('section1').classList.remove('box-active');
     document.getElementById('section2').classList.remove('box-active2');
     document.getElementById('section3').classList.remove('box-active');
     document.getElementById('section4').classList.remove('box-active2');
     return false;
-};
+  };
 
-document.getElementById('link8').onclick = function() {
+  document.getElementById('link8').onclick = function() {
     document.getElementById('section1').classList.add('box-active');
     document.getElementById('section3').classList.add('box-active');
     document.getElementById('section2').classList.add('box-active2');
     document.getElementById('section4').classList.add('box-active2');
     return false;
-};
+  };
   //Effet audio Groupes
-$('#link8').click(function() {
+  $('#link8').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
     //requête Ajax
     $('#section1').load("backEnd/LinksGroupes/Section1.html #sectiongrp1");
@@ -832,46 +832,46 @@ $('#link8').click(function() {
 
     // Animation CSS
     $('header').css({
-        'background-image': 'url("images/headers/header_groupes.png")',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #0C2448',
-        'transition': '3s'
+      'background-image': 'url("images/headers/header_groupes.png")',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #0C2448',
+      'transition': '3s'
     });
     // $('h1').css({
     //     'color': '#0C2448',
     //     'transition': '3s'
     // });
     $('h2').css({
-        'color': '#0C2448',
-        'transition': '3s'
+      'color': '#0C2448',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#0C2448',
-        'transition': '3s'
+      'color': '#0C2448',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#0C2448',
-        'transition': '3s'
+      'color': '#0C2448',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #0C2448',
-        'transition': '3s'
+      'border': '4px solid #0C2448',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#0C2448',
-        'transition': '3s'
+      'background-color': '#0C2448',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #0C2448',
-        'border-left': '2px solid #0C2448',
-        'border-bottom': '2px solid #0C2448',
-        'transition': '3s'
+      'border-top': '2px solid #0C2448',
+      'border-left': '2px solid #0C2448',
+      'border-bottom': '2px solid #0C2448',
+      'transition': '3s'
     });
   });
 
   //Groupes Footer
-$('#lien8').click(function() {
+  $('#lien8').click(function() {
     //requête Ajax
     $('#section1').load("backEnd/LinksGroupes/Section1.html #sectiongrp1");
     $('#section2').load("backEnd/LinksGroupes/Section2.html #sectiongrp2");
@@ -880,41 +880,41 @@ $('#lien8').click(function() {
 
     // Animation CSS
     $('header').css({
-        'background-image': 'url("images/headers/header_groupes.png")',
-        'background-size': 'cover',
-        'background-repeat': 'no-repeat',
-        'border-bottom': '4px solid #0C2448',
-        'transition': '3s'
+      'background-image': 'url("images/headers/header_groupes.png")',
+      'background-size': 'cover',
+      'background-repeat': 'no-repeat',
+      'border-bottom': '4px solid #0C2448',
+      'transition': '3s'
     });
     // $('h1').css({
     //     'color': '#0C2448',
     //     'transition': '3s'
     // });
     $('h2').css({
-        'color': '#0C2448',
-        'transition': '3s'
+      'color': '#0C2448',
+      'transition': '3s'
     });
     $('.fa').css({
-        'color': '#0C2448',
-        'transition': '3s'
+      'color': '#0C2448',
+      'transition': '3s'
     });
     $('h3').css({
-        'color': '#0C2448',
-        'transition': '3s'
+      'color': '#0C2448',
+      'transition': '3s'
     });
     $('hr').css({
-        'border': '4px solid #0C2448',
-        'transition': '3s'
+      'border': '4px solid #0C2448',
+      'transition': '3s'
     });
     $('#btn_map').css({
-        'background-color': '#0C2448',
-        'transition': '3s'
+      'background-color': '#0C2448',
+      'transition': '3s'
     });
     $('.bouton_facebook').css({
-        'border-top': '2px solid #0C2448',
-        'border-left': '2px solid #0C2448',
-        'border-bottom': '2px solid #0C2448',
-        'transition': '3s'
+      'border-top': '2px solid #0C2448',
+      'border-left': '2px solid #0C2448',
+      'border-bottom': '2px solid #0C2448',
+      'transition': '3s'
     });
   });
 

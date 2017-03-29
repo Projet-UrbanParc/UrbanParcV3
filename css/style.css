@@ -7,85 +7,85 @@
 /*==========*/
 
 .box-active {
-    -webkit-animation-name: translateInRight;
-    animation-name: translateInRight;
-    -webkit-animation-duration: 3s;
-    animation-duration: 3s;
-    -webkit-animation-iteration-count: revert;
-    animation-iteration-count: revert;
+  -webkit-animation-name: translateInRight;
+  animation-name: translateInRight;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: revert;
+  animation-iteration-count: revert;
 }
 
 .box-active2 {
-    -webkit-animation-name: translateInLeft;
-    animation-name: translateInLeft;
-    -webkit-animation-duration: 2s;
-    animation-duration: 2s;
-    -webkit-animation-iteration-count: revert;
-    animation-iteration-count: revert;
+  -webkit-animation-name: translateInLeft;
+  animation-name: translateInLeft;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: revert;
+  animation-iteration-count: revert;
 }
 
 @-webkit-keyframes translateInRight {
-    0% {
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-        visibility: visible;
-    }
-    50% {
-        -webkit-transform: translateX(+150%);
-        transform: translateX(+150%);
-    }
-    100% {
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-    }
+  0% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    visibility: visible;
+  }
+  50% {
+    -webkit-transform: translateX(+150%);
+    transform: translateX(+150%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
 }
 
 @keyframes translateInRight {
-    0% {
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-        visibility: visible;
-    }
-    50% {
-        -webkit-transform: translateX(+150%);
-        transform: translateX(+150%);
-    }
-    100% {
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-    }
+  0% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    visibility: visible;
+  }
+  50% {
+    -webkit-transform: translateX(+150%);
+    transform: translateX(+150%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
 }
 
 @-webkit-keyframes translateInLeft {
-    0% {
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-        visibility: visible;
-    }
-    50% {
-        -webkit-transform: translateX(-175%);
-        transform: translateX(-175%)
-    }
-    100% {
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-    }
+  0% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    visibility: visible;
+  }
+  50% {
+    -webkit-transform: translateX(-175%);
+    transform: translateX(-175%)
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
 }
 
 @keyframes translateInLeft {
-    0% {
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-        visibility: visible;
-    }
-    50% {
-        -webkit-transform: translateX(-175%);
-        transform: translateX(-175%)
-    }
-    100% {
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
-    }
+  0% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    visibility: visible;
+  }
+  50% {
+    -webkit-transform: translateX(-175%);
+    transform: translateX(-175%)
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+  }
 }
 
 
@@ -99,18 +99,18 @@
 
 /*FONTS*/
 @font-face {
-    font-family: "UrbanJungle";
-    src: url("../fonts/UrbanJungleDEMO.otf");
+  font-family: "UrbanJungle";
+  src: url("../fonts/UrbanJungleDEMO.otf");
 }
 
 @font-face {
-    font-family: "Futura";
-    src: url("../fonts/FuturaHand.ttf");
+  font-family: "Futura";
+  src: url("../fonts/FuturaHand.ttf");
 }
 
 @font-face {
-    font-family: "ToxTypewriter";
-    src: url("../fonts/ToxTypewriter.ttf");
+  font-family: "ToxTypewriter";
+  src: url("../fonts/ToxTypewriter.ttf");
 }
 
 /*GENERAL*/
@@ -139,14 +139,14 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .modal-body section article{
@@ -154,14 +154,14 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 100%;
   font-family: "ToxTypewriter";
 }
@@ -196,7 +196,7 @@ audio {
 }
 
 .accueil:hover {
-    background-color: rgba(253, 160, 41, 0.8);
+  background-color: rgba(253, 160, 41, 0.8);
 }
 
 .dropdown-menu li {
@@ -204,35 +204,35 @@ audio {
 }
 
 .dropdown-menu li .accrobranche:hover {
-    background-color: rgba(75, 163, 60, 0.8);
+  background-color: rgba(75, 163, 60, 0.8);
 }
 
 .dropdown-menu li .skatepark:hover {
-    background-color: rgba(13, 176, 195, 0.8);
+  background-color: rgba(13, 176, 195, 0.8);
 }
 
 .dropdown-menu li .trampo:hover {
-    background-color: rgba(103, 53, 0, 0.8);
+  background-color: rgba(103, 53, 0, 0.8);
 }
 
 .tarif:hover {
-    background-color: rgba(209, 172, 53, 0.8);
+  background-color: rgba(209, 172, 53, 0.8);
 }
 
 .evenement:hover {
-    background-color: rgba(252, 42, 33, 0.8);
+  background-color: rgba(252, 42, 33, 0.8);
 }
 
 .anniversaire:hover {
-    background-color: rgba(220, 63, 209, 0.8);
+  background-color: rgba(220, 63, 209, 0.8);
 }
 
 .media:hover {
-    background-color: rgba(118, 108, 255, 0.8);
+  background-color: rgba(118, 108, 255, 0.8);
 }
 
 .groupes:hover {
-    background-color: rgba(12, 36, 72, 0.8);
+  background-color: rgba(12, 36, 72, 0.8);
 }
 
 /*Bouton Bistrot*/
@@ -274,14 +274,14 @@ article {
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-justify-content: space-around;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 100%;
 }
 
@@ -303,14 +303,14 @@ form {
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-family: "Futura";
 }
 
@@ -338,11 +338,11 @@ form {
   display: -ms-flexbox;
   display: flex;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 100%;
   height: 3em;
   margin-top: 1em;
@@ -386,7 +386,7 @@ footer a {
   .navbar {
     height: 5em;
     background-color: rgba(0, 0, 0, 0.8);
-	  border-bottom: 3px solid #FB7826;
+    border-bottom: 3px solid #FB7826;
     font-family: "UrbanJungle";
   }
 
@@ -429,14 +429,14 @@ footer a {
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   main img {
@@ -457,7 +457,7 @@ footer a {
   .navbar {
     height: 5em;
     background-color: rgba(0, 0, 0, 0.8);
-	  border-bottom: 3px solid #FB7826;
+    border-bottom: 3px solid #FB7826;
     font-family: "UrbanJungle";
   }
 
@@ -491,14 +491,14 @@ footer a {
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   article {
@@ -506,14 +506,14 @@ footer a {
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   hr {
@@ -524,20 +524,20 @@ footer a {
   .div_partenaires img{
     width: 70%;
   }
-/*Footer*/
+  /*Footer*/
   .row {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
     -ms-flex-direction: row;
     -webkit-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     -ms-flex-pack: center;
-        -webkit-justify-content: center;
-            justify-content: center;
+    -webkit-justify-content: center;
+    justify-content: center;
     -ms-flex-align: center;
-        -webkit-align-items: center;
-            align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
   }
 
 }
@@ -557,8 +557,8 @@ footer a {
     display: -ms-flexbox;
     display: flex;
     -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
     position: fixed;
     padding: 1.1%;
     width: 100%;
@@ -608,60 +608,60 @@ footer a {
   }
 
   .header_bouton {
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -ms-flex-direction: row;
-        -webkit-flex-direction: row;
-                flex-direction: row;
-        -ms-flex-pack: end;
-        -webkit-justify-content: flex-end;
-                justify-content: flex-end;
-        -ms-flex-align: end;
-        -webkit-align-items: flex-end;
-                align-items: flex-end;
-        width: 100%;
-        height: 24em;
-        padding: 0;
-        margin: 0;
-        font-family: "Futura";
-    }
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    -ms-flex-align: end;
+    -webkit-align-items: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 24em;
+    padding: 0;
+    margin: 0;
+    font-family: "Futura";
+  }
 
-    .bouton_facebook {
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -ms-flex-direction: column;
-        -webkit-flex-direction: column;
-                flex-direction: column;
-        -webkit-align-items: flex-start;
-            -ms-flex-align: start;
-                align-items: flex-start;
-        border-top: 2px solid #FB7826;
-        border-left: 2px solid #FB7826;
-        border-bottom: 2px solid #FB7826;
-        border-radius: 20px 0px 0px 0px;
-        padding: 0.5em;
-        background-color: #000;
-    }
+  .bouton_facebook {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    border-top: 2px solid #FB7826;
+    border-left: 2px solid #FB7826;
+    border-bottom: 2px solid #FB7826;
+    border-radius: 20px 0px 0px 0px;
+    padding: 0.5em;
+    background-color: #000;
+  }
 
-    .bouton_facebook a i{
-      margin: 0.5em;
-    }
+  .bouton_facebook a i{
+    margin: 0.5em;
+  }
 
   main {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   section {
@@ -670,13 +670,13 @@ footer a {
     display: flex;
     -ms-flex-direction: row;
     -webkit-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     -ms-flex-pack: space-around;
-        -webkit-justify-content: space-around;
-            justify-content: space-around;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
     -ms-flex-align: center;
-        -webkit-align-items: center;
-            align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
   }
 
   article {
