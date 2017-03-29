@@ -1,4 +1,25 @@
 $(document).ready(function(){
+  //Animation CSS
+  // ==============================LINK 1 =================================/
+// On retire la classe .box-active pour permettre à l'animation de re-trigger
+//return false rajouté par Alex pour ne pas avoir un retour en haut de page à chaque clic dans la nav
+
+document.getElementById('link1').onmousedown = function() {
+    document.getElementById('section1').classList.remove('box-active');
+    document.getElementById('section2').classList.remove('box-active2');
+    document.getElementById('section3').classList.remove('box-active');
+    document.getElementById('section4').classList.remove('box-active2');
+    return false;
+};
+
+// On ajoute la classe .box-active pour trigger l'animation CSS3
+document.getElementById('link1').onclick = function() {
+    document.getElementById('section1').classList.add('box-active');
+    document.getElementById('section3').classList.add('box-active');
+    document.getElementById('section2').classList.add('box-active2');
+    document.getElementById('section4').classList.add('box-active2');
+    return false;
+};
   //Effet Audio Accueil
 $('#link1').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
@@ -94,6 +115,24 @@ $('#lien1').click(function() {
     });
   });
 
+  //Animation CSS
+  //================================LINK 2 ================================/
+
+document.getElementById('link2').onmousedown = function() {
+    document.getElementById('section1').classList.remove('box-active');
+    document.getElementById('section2').classList.remove('box-active2');
+    document.getElementById('section3').classList.remove('box-active');
+    document.getElementById('section4').classList.remove('box-active2');
+    return false;
+};
+
+document.getElementById('link2').onclick = function() {
+    document.getElementById('section1').classList.add('box-active');
+    document.getElementById('section3').classList.add('box-active');
+    document.getElementById('section2').classList.add('box-active2');
+    document.getElementById('section4').classList.add('box-active2');
+    return false;
+};
   //Effet Audio Accrobranche
   $('#link2').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
@@ -191,6 +230,24 @@ $('#lien1').click(function() {
     });
   });
 
+
+  //Animation CSS
+  //================================LINK 3 ==============================/
+document.getElementById('link3').onmousedown = function() {
+    document.getElementById('section1').classList.remove('box-active');
+    document.getElementById('section2').classList.remove('box-active2');
+    document.getElementById('section3').classList.remove('box-active');
+    document.getElementById('section4').classList.remove('box-active2');
+    return false;
+};
+
+document.getElementById('link3').onclick = function() {
+    document.getElementById('section1').classList.add('box-active');
+    document.getElementById('section3').classList.add('box-active');
+    document.getElementById('section2').classList.add('box-active2');
+    document.getElementById('section4').classList.add('box-active2');
+    return false;
+};
   //Effet Audio Skatepark
 $('#link3').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
@@ -288,6 +345,23 @@ $('#lien3').click(function() {
     });
   });
 
+  //Animation CSS
+  //================================LINK 7 ==============================/
+document.getElementById('link7').onmousedown = function() {
+    document.getElementById('section1').classList.remove('box-active');
+    document.getElementById('section2').classList.remove('box-active2');
+    document.getElementById('section3').classList.remove('box-active');
+    document.getElementById('section4').classList.remove('box-active2');
+    return false;
+};
+
+document.getElementById('link7').onclick = function() {
+    document.getElementById('section1').classList.add('box-active');
+    document.getElementById('section3').classList.add('box-active');
+    document.getElementById('section2').classList.add('box-active2');
+    document.getElementById('section4').classList.add('box-active2');
+    return false;
+};
   //Effet Audio Trampo
 $('#link7').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
@@ -385,6 +459,25 @@ $('#lien7').click(function() {
     });
   });
 
+  //Animation CSS
+  //================================LINK 0 ==============================/
+document.getElementById('link0').onmousedown = function()
+{
+    document.getElementById('section1').classList.remove('box-active');
+    document.getElementById('section2').classList.remove('box-active2');
+    document.getElementById('section3').classList.remove('box-active');
+    document.getElementById('section4').classList.remove('box-active2');
+    return false;
+};
+
+document.getElementById('link0').onclick = function()
+{
+    document.getElementById('section1').classList.add('box-active');
+    document.getElementById('section3').classList.add('box-active');
+    document.getElementById('section2').classList.add('box-active2');
+    document.getElementById('section4').classList.add('box-active2');
+    return false;
+};
   ///Effet Audio TARIFS
   $('#link0').click(function() {
     //Effet Audio
@@ -483,6 +576,23 @@ $('#lien7').click(function() {
     });
   });
 
+  //Animation CSS
+  //================================LINK 6 ==============================/
+document.getElementById('link6').onmousedown = function() {
+    document.getElementById('section1').classList.remove('box-active');
+    document.getElementById('section2').classList.remove('box-active2');
+    document.getElementById('section3').classList.remove('box-active');
+    document.getElementById('section4').classList.remove('box-active2');
+    return false;
+};
+
+document.getElementById('link6').onclick = function() {
+    document.getElementById('section1').classList.add('box-active');
+    document.getElementById('section3').classList.add('box-active');
+    document.getElementById('section2').classList.add('box-active2');
+    document.getElementById('section4').classList.add('box-active2');
+    return false;
+};
   //Effet Audio Anniversaire
 $('#link6').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
@@ -580,6 +690,23 @@ $('#lien6').click(function() {
     });
   });
 
+  //Animation CSS
+  //================================LINK 5 ==============================/
+document.getElementById('link5').onmousedown = function() {
+    document.getElementById('section1').classList.remove('box-active');
+    document.getElementById('section2').classList.remove('box-active2');
+    document.getElementById('section3').classList.remove('box-active');
+    document.getElementById('section4').classList.remove('box-active2');
+    return false;
+};
+
+document.getElementById('link5').onclick = function() {
+    document.getElementById('section1').classList.add('box-active');
+    document.getElementById('section3').classList.add('box-active');
+    document.getElementById('section2').classList.add('box-active2');
+    document.getElementById('section4').classList.add('box-active2');
+    return false;
+};
   //Effet Audio Event
 $('#link5').click(function() {
     $('#' + $(this).attr('rel'))[0].play();
@@ -677,6 +804,23 @@ $('#lien5').click(function() {
     });
   });
 
+  //Animation CSS
+  //================================LINK 8 ==============================/
+document.getElementById('link8').onmousedown = function() {
+    document.getElementById('section1').classList.remove('box-active');
+    document.getElementById('section2').classList.remove('box-active2');
+    document.getElementById('section3').classList.remove('box-active');
+    document.getElementById('section4').classList.remove('box-active2');
+    return false;
+};
+
+document.getElementById('link8').onclick = function() {
+    document.getElementById('section1').classList.add('box-active');
+    document.getElementById('section3').classList.add('box-active');
+    document.getElementById('section2').classList.add('box-active2');
+    document.getElementById('section4').classList.add('box-active2');
+    return false;
+};
   //Effet audio Groupes
 $('#link8').click(function() {
     $('#' + $(this).attr('rel'))[0].play();

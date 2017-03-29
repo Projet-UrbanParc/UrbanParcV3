@@ -1,3 +1,97 @@
+/*============*/
+
+
+/* Animation */
+
+
+/*==========*/
+
+.box-active {
+    -webkit-animation-name: translateInRight;
+    animation-name: translateInRight;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: revert;
+    animation-iteration-count: revert;
+}
+
+.box-active2 {
+    -webkit-animation-name: translateInLeft;
+    animation-name: translateInLeft;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: revert;
+    animation-iteration-count: revert;
+}
+
+@-webkit-keyframes translateInRight {
+    0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        visibility: visible;
+    }
+    50% {
+        -webkit-transform: translateX(+150%);
+        transform: translateX(+150%);
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+}
+
+@keyframes translateInRight {
+    0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        visibility: visible;
+    }
+    50% {
+        -webkit-transform: translateX(+150%);
+        transform: translateX(+150%);
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+}
+
+@-webkit-keyframes translateInLeft {
+    0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        visibility: visible;
+    }
+    50% {
+        -webkit-transform: translateX(-175%);
+        transform: translateX(-175%)
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+}
+
+@keyframes translateInLeft {
+    0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        visibility: visible;
+    }
+    50% {
+        -webkit-transform: translateX(-175%);
+        transform: translateX(-175%)
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+}
+
+
+/*---------------------------------------------*/
+
+
 *{
   margin: 0;
   padding: 0;
