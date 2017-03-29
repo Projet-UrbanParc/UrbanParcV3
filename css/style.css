@@ -76,6 +76,15 @@
   text-align: left;
 }
 
+.bs-example-modal-sm {
+  width: 100%;
+  color: #fff;
+}
+
+#submit_button2 {
+  color: #000;
+}
+
 audio {
   display: none;
 }
@@ -440,6 +449,11 @@ footer a {
 }
 
 @media screen and (min-width: 1281px) {
+  .bs-example-modal-sm div {
+    position: relative;
+    left: 10%;
+  }
+
   .navbar-collapse{
     margin-top: 1px;
   }
